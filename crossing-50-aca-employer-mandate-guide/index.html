@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossing 50: An Owner's Guide to the ACA Employer Mandate | Nexus Benefit Solutions</title>
+<meta name="description" content="A plain-English guide for business owners approaching 50 full-time-equivalent employees: the ALE formula, when coverage must start, the A and B penalties, affordability, pricing, and the strategies employers use. 2026 and 2027 IRS figures.">
+<meta property="og:title" content="Crossing 50: An Owner's Guide to the ACA Employer Mandate">
+<meta property="og:description" content="What changes when your business reaches 50 full-time-equivalent employees, and how to plan for it. From Nexus Benefit Solutions.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Nexus Benefit Solutions">
+<!-- PUBLISH: og:url placeholder. Proposed path /resources/crossing-50-aca-employer-mandate-guide
+     On publish, replace this comment with:
+     <meta property="og:url" content="https://nexusbenefitsolutions.com/resources/crossing-50-aca-employer-mandate-guide"> -->
+<!-- PUBLISH: canonical placeholder. On publish, replace this comment with:
+     <link rel="canonical" href="https://nexusbenefitsolutions.com/resources/crossing-50-aca-employer-mandate-guide"> -->
+<link rel="icon" href="https://nexusbenefitsolutions.com/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=DM+Serif+Display:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+/* Nexus Benefit Solutions — Forest & Rust brand system (brand-guidelines.html, Feb 2026) */
+:root{
+  --natural-white:#FAFAF8; --deep-forest:#1F3D2E; --rust:#B8522A; --sage:#7A9282; --pale-sage:#E8EBE4;
+  --forest-light:#2A5240; --rust-dark:#9A4422; --rust-light:#D4693F; --charcoal:#2D2D2D;
+  --muted-text:#4E6356;
+  --serif:"DM Serif Display", Georgia, "Times New Roman", serif;
+  --sans:"DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --radius:12px; --shadow:0 1px 3px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);font-size:17px;line-height:1.65;color:var(--charcoal);background:var(--natural-white);-webkit-font-smoothing:antialiased}
+a{color:var(--rust);text-decoration:none;border-bottom:1px solid transparent}
+a:hover,a:focus{border-bottom-color:var(--rust)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--rust-light);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--deep-forest);color:#fff;padding:10px 16px;border-radius:6px;z-index:100}
+.skip:focus{left:16px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;color:var(--deep-forest);line-height:1.15}
+h4{font-family:var(--sans);font-weight:600;color:var(--deep-forest);font-size:18px;line-height:1.35;margin:24px 0 8px}
+p{margin:0 0 16px}
+ul,ol{margin:0 0 16px 22px}
+li{margin:0 0 8px}
+strong{color:var(--deep-forest);font-weight:600}
+.site-header{background:#fff;border-bottom:1px solid var(--pale-sage);position:sticky;top:0;z-index:50}
+.site-header .inner{max-width:1180px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.lockup{display:flex;align-items:center;gap:12px;color:var(--deep-forest);border:0}
+.lockup:hover,.lockup:focus{border:0}
+.lockup svg{height:46px;width:auto;display:block}
+.lockup .wordmark{font-family:var(--serif);font-size:24px;line-height:1;color:var(--deep-forest);white-space:nowrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:6px;font-family:var(--sans);font-size:15px;font-weight:500;border:0;cursor:pointer;line-height:1.2}
+.btn-primary{background:var(--rust);color:#fff}
+.btn-primary:hover,.btn-primary:focus{background:var(--rust-dark);border:0;color:#fff}
+.btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7)}
+.btn-outline:hover,.btn-outline:focus{border-color:#fff}
+.hero{background:var(--deep-forest);color:var(--natural-white)}
+.hero .inner{max-width:1180px;margin:0 auto;padding:64px 24px 72px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--rust-light);margin-bottom:14px}
+.hero h1{color:#fff;font-size:54px;max-width:820px;margin-bottom:18px}
+.hero h1 em{font-style:italic;color:var(--pale-sage)}
+.hero .lede{font-size:20px;line-height:1.55;color:#DDE3DA;max-width:720px;margin-bottom:26px}
+.hero .meta{font-size:14px;color:#C9D2C6;margin-top:22px}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.glance{max-width:1180px;margin:-36px auto 0;padding:0 24px;position:relative}
+.glance-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.glance-card{background:#fff;border-radius:var(--radius);box-shadow:0 4px 14px rgba(31,61,46,.10);padding:18px 18px 16px;border-top:4px solid var(--rust)}
+.glance-card .num{font-family:var(--serif);font-size:32px;color:var(--deep-forest);line-height:1.05}
+.glance-card .lbl{font-size:14px;line-height:1.45;color:var(--charcoal);margin-top:6px}
+.layout{max-width:1180px;margin:0 auto;padding:48px 24px 24px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:56px}
+.toc{position:sticky;top:96px;align-self:start;max-height:calc(100vh - 120px);overflow:auto;font-size:15px}
+.toc h2{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted-text);margin-bottom:12px}
+.toc ol{list-style:none;margin:0;counter-reset:toc}
+.toc li{margin:0;counter-increment:toc}
+.toc a{display:flex;gap:10px;padding:7px 10px;border-radius:6px;color:var(--deep-forest);border:0;line-height:1.35}
+.toc a::before{content:counter(toc,decimal-leading-zero);color:var(--rust);font-weight:600;font-size:13px;min-width:20px;padding-top:1px}
+.toc a:hover,.toc a:focus{background:var(--pale-sage)}
+.toc-mobile{display:none}
+main{min-width:0;max-width:790px}
+section.chapter{padding-top:8px;margin-bottom:64px;scroll-margin-top:90px}
+.tag{font-size:13px;font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:var(--rust);margin-bottom:10px}
+section.chapter > h2{font-size:38px;margin-bottom:18px}
+section.chapter h3{font-size:26px;margin:36px 0 12px}
+.intro{font-size:19px;color:var(--deep-forest);line-height:1.6;margin-bottom:40px}
+a.cite{font-size:.72em;vertical-align:super;line-height:0;font-weight:600;color:var(--rust);border:0;padding:0 1px;white-space:nowrap}
+a.cite:hover,a.cite:focus{text-decoration:underline}
+.note{background:var(--pale-sage);border-radius:8px;padding:18px 22px;margin:22px 0;color:var(--deep-forest);font-size:16px}
+.note p:last-child,.note ul:last-child{margin-bottom:0}
+.note .note-title{font-weight:600;display:block;margin-bottom:6px}
+.callout-do,.callout-watch{display:flex;gap:14px;align-items:flex-start;border-radius:8px;padding:16px 18px;margin:18px 0;font-size:16px}
+.callout-do{background:rgba(31,61,46,.06)}
+.callout-watch{background:rgba(184,82,42,.07)}
+.callout-do .ico,.callout-watch .ico{flex:0 0 26px;height:26px;border-radius:50%;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.callout-do .ico{background:var(--deep-forest)}
+.callout-watch .ico{background:var(--rust)}
+.callout-do p:last-child,.callout-watch p:last-child{margin:0}
+.formula{background:#fff;border:1px solid var(--pale-sage);border-left:4px solid var(--deep-forest);border-radius:8px;padding:18px 22px;margin:20px 0;font-size:17px;color:var(--deep-forest)}
+.formula .f-line{font-weight:600;font-size:18px}
+.formula .f-sub{color:var(--muted-text);font-size:15px;margin-top:8px}
+.badge{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--rust-dark);border:1.5px solid var(--rust);border-radius:999px;padding:3px 10px;margin-bottom:10px;background:#fff}
+.example{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:24px 26px;margin:24px 0;border:1px solid #EEF0EA}
+.example h4{margin-top:0;font-family:var(--serif);font-weight:400;font-size:22px}
+.example .table-wrap{box-shadow:none;border:1px solid var(--pale-sage)}
+.table-wrap{overflow-x:auto;margin:18px 0 22px;border-radius:10px;box-shadow:var(--shadow);background:#fff;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:15.5px;min-width:520px}
+caption{text-align:left;font-size:14px;color:var(--muted-text);padding:10px 16px;caption-side:bottom;line-height:1.5}
+th{background:var(--deep-forest);color:#fff;font-weight:500;text-align:left;padding:11px 14px;vertical-align:bottom;line-height:1.35}
+td{padding:10px 14px;border-bottom:1px solid var(--pale-sage);vertical-align:top;line-height:1.5}
+tbody tr:nth-child(even){background:#FAFAF8}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.num{white-space:nowrap}
+tr.total td{font-weight:600;color:var(--deep-forest);background:var(--pale-sage)}
+table.compare{min-width:760px}
+.compare td{font-size:14.5px}
+.compare td:first-child{min-width:150px}
+.timeline{list-style:none;margin:24px 0 28px;display:grid;grid-template-columns:repeat(5,1fr);gap:0;position:relative}
+.timeline::before{content:"";position:absolute;top:13px;left:10%;right:10%;height:3px;background:var(--pale-sage)}
+.timeline li{position:relative;text-align:center;padding:0 8px;margin:0}
+.timeline .dot{display:block;width:28px;height:28px;border-radius:50%;background:var(--deep-forest);border:4px solid var(--natural-white);box-shadow:0 0 0 2px var(--deep-forest);margin:0 auto 12px;position:relative;z-index:1}
+.timeline li.key .dot{background:var(--rust);box-shadow:0 0 0 2px var(--rust)}
+.timeline .when{font-weight:600;color:var(--deep-forest);font-size:15px;line-height:1.3}
+.timeline .what{font-size:14px;line-height:1.45;color:var(--charcoal);margin-top:4px}
+.cards-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+.card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:22px 22px 8px;border:1px solid #EEF0EA}
+.card h4{margin-top:0}
+.card h3.card-h{font-family:var(--sans);font-weight:600;color:var(--deep-forest);font-size:18px;line-height:1.35;margin:0 0 8px}
+.card ul{margin-left:18px;font-size:16px}
+.card p{font-size:16px}
+.card.accent{border-top:4px solid var(--rust)}
+.card.forest{border-top:4px solid var(--deep-forest)}
+.checklist{list-style:none;margin:0 0 16px}
+.checklist li{position:relative;padding-left:34px;margin-bottom:12px}
+.checklist li::before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border:2px solid var(--deep-forest);border-radius:5px;background:#fff}
+.worksheet{background:#fff;border:2px dashed var(--sage);border-radius:var(--radius);padding:18px 24px;margin:22px 0}
+.worksheet .row{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding:9px 0;border-bottom:1px solid var(--pale-sage);font-size:16px}
+.worksheet .row:last-child{border-bottom:0;font-weight:600;color:var(--deep-forest)}
+.worksheet .blank{min-width:110px;border-bottom:1.5px solid var(--charcoal);text-align:right;color:var(--muted-text);padding-bottom:2px}
+.advisor{background:var(--deep-forest);color:#E4E9E1;border-radius:16px;padding:40px 40px 28px;margin:32px 0 0}
+.advisor .tag{color:var(--rust-light)}
+.advisor strong{color:#fff}
+.advisor .pull{font-family:var(--serif);font-size:32px;line-height:1.25;color:#fff;margin:6px 0 20px}
+.sources ol{margin-left:24px;font-size:15px}
+.sources li{margin-bottom:10px;padding-left:4px;scroll-margin-top:90px}
+.sources .src-note{color:var(--muted-text)}
+.scope{border-left:4px solid var(--deep-forest)}
+details.more{background:#fff;border:1px solid var(--pale-sage);border-radius:10px;margin:18px 0;box-shadow:var(--shadow)}
+details.more > summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 20px;font-weight:600;color:var(--deep-forest);font-size:17px;line-height:1.35}
+details.more > summary::-webkit-details-marker{display:none}
+details.more > summary::after{content:"+";color:var(--rust);font-size:24px;line-height:1;flex:0 0 auto}
+details.more[open] > summary::after{content:"\2212"}
+details.more > summary .sum-hint{display:block;font-weight:400;font-size:14px;color:var(--muted-text);margin-top:2px}
+details.more > .more-body{padding:4px 20px 8px;border-top:1px solid var(--pale-sage)}
+details.more > .more-body > :first-child{margin-top:16px}
+details.more h4{margin-top:18px}
+.example .ex-math{font-variant-numeric:tabular-nums;background:var(--natural-white);border-left:3px solid var(--rust);border-radius:4px;padding:10px 14px;margin:0 0 14px;color:var(--deep-forest)}
+.example .ex-math div + div{margin-top:4px}
+.example p:last-child{margin-bottom:0}
+.disclaimer{font-size:14.5px;color:var(--muted-text);border-top:1px solid var(--pale-sage);padding-top:18px;margin-top:26px}
+.site-footer{background:var(--deep-forest);color:#C9D2C6;margin-top:40px}
+.site-footer .inner{max-width:1180px;margin:0 auto;padding:36px 24px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px;font-size:15px}
+.site-footer .lockup,.site-footer .lockup .wordmark{color:#fff}
+.site-footer .lockup .wordmark{font-size:22px}
+.site-footer a{color:#F0B79B}
+.site-footer .tagline{color:#AFC0B4;font-size:14px;margin:8px 0 0;letter-spacing:.3px}
+@media (max-width:1100px){.glance-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:980px){
+  .layout{grid-template-columns:1fr;gap:0;padding-top:32px}
+  .toc{display:none}
+  .toc-mobile{display:block;margin:0 0 32px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid #EEF0EA}
+  .toc-mobile summary{cursor:pointer;padding:16px 20px;font-weight:600;color:var(--deep-forest);list-style:none;display:flex;justify-content:space-between}
+  .toc-mobile summary::-webkit-details-marker{display:none}
+  .toc-mobile summary::after{content:"+";color:var(--rust);font-size:22px;line-height:1}
+  .toc-mobile[open] summary::after{content:"\2212"}
+  .toc-mobile ol{margin:0 20px 16px 40px}
+  .toc-mobile li{margin-bottom:6px}
+  main{max-width:none}
+}
+@media (max-width:720px){
+  body{font-size:16.5px}
+  .site-header .inner{padding:10px 16px}
+  .lockup svg{height:38px}
+  .lockup .wordmark{font-size:19px}
+  .site-header .btn{padding:10px 14px;font-size:14px}
+  .hero .inner{padding:44px 18px 60px}
+  .hero h1{font-size:38px}
+  .hero .lede{font-size:18px}
+  .glance{padding:0 16px}
+  .glance-grid{grid-template-columns:1fr 1fr}
+  .glance-card .num{font-size:28px}
+  .layout{padding:28px 18px 16px}
+  section.chapter > h2{font-size:31px}
+  section.chapter h3{font-size:23px}
+  .cards-2{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr}
+  .timeline::before{top:0;bottom:0;left:13px;right:auto;width:3px;height:auto}
+  .timeline li{display:grid;grid-template-columns:28px 1fr;column-gap:14px;text-align:left;padding:0 0 18px}
+  .timeline .dot{margin:0;grid-row:span 2}
+  .advisor{padding:28px 22px 18px}
+  .advisor .pull{font-size:26px}
+  .example{padding:20px 16px}
+  .worksheet{padding:14px 16px}
+}
+@media (max-width:440px){
+  .site-header .wordmark{display:none}
+  .glance-grid{grid-template-columns:1fr}
+}
+/* ---- Responsive layer (screen only; desktop >1180px and print are unchanged) ---- */
+@media screen{
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  main{overflow-wrap:break-word}
+  .sources li,.sources li a,.sources .src-note{overflow-wrap:anywhere}
+}
+@media screen and (max-width:1179px){
+  table.compare{min-width:640px}
+}
+@media screen and (max-width:1024px), screen and (pointer:coarse){
+  .btn{min-height:44px;display:inline-flex;align-items:center;justify-content:center;text-align:center}
+  .lockup{min-height:44px}
+  .toc-mobile summary{min-height:44px;align-items:center}
+  .toc-mobile li a{display:block;min-height:44px;padding:10px 0}
+  .toc-mobile li{margin-bottom:0}
+  .site-footer a{display:inline-block;min-height:44px;padding:11px 0}
+  .sources li > a[href^="http"]:first-child{display:inline-block;padding:10px 0}
+  a.cite{padding:16px 3px}
+  .toc a{min-height:44px;align-items:center}
+}
+@media screen and (max-width:1024px){
+  .hero h1{font-size:clamp(32px,6.4vw + 12px,54px)}
+  section.chapter > h2{font-size:clamp(28px,3.2vw + 18px,38px)}
+  section.chapter h3{font-size:clamp(21px,1.6vw + 16px,26px)}
+  .advisor .pull{font-size:clamp(24px,2.8vw + 15px,32px)}
+}
+@media screen and (max-width:720px){
+  td,.compare td{font-size:16px}
+  caption{font-size:15px}
+  .sources ol{font-size:16px;margin-left:20px}
+  .timeline .when,.timeline .what{font-size:16px}
+  .formula .f-sub{font-size:16px}
+  .disclaimer{font-size:16px}
+  .hero .meta{font-size:15px}
+  details.more > summary .sum-hint{font-size:15px}
+  details.more > summary{padding:14px 16px}
+  details.more > .more-body{padding:4px 16px 8px}
+  .example p[style*="font-size:14px"]{font-size:16px !important}
+  .glance-card .lbl{font-size:16px}
+  .note{padding:16px 18px}
+  .callout-do,.callout-watch{padding:14px 16px;gap:12px}
+}
+/* Phones: wide tables reflow into stacked card rows (labels come from data-label) */
+@media screen and (max-width:700px){
+  .table-wrap{overflow-x:visible}
+  table.rt,table.rt.compare{min-width:0;display:flex;flex-direction:column}
+  table.rt caption{order:2;padding:10px 14px}
+  table.rt thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+  table.rt tbody{display:block}
+  table.rt tr{display:block;padding:12px 14px;border-bottom:1px solid var(--pale-sage)}
+  table.rt tbody tr:last-child{border-bottom:0}
+  table.rt td{display:block;border:0;padding:2px 0;text-align:left;white-space:normal;min-width:0}
+  table.rt td::before{content:attr(data-label);display:block;margin-top:8px;font-size:13px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--muted-text);line-height:1.4}
+  table.rt td:first-child{font-weight:600;color:var(--deep-forest);font-size:17px}
+  table.rt td:first-child::before,table.rt td[data-label=""]::before{content:none}
+  table.rt.rt-kv td{display:flow-root;text-align:right;padding:4px 0}
+  table.rt.rt-kv td::before{content:attr(data-label);float:left;width:55%;margin:0;padding-right:12px;text-align:left;font-size:15px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted-text)}
+  table.rt.rt-kv td:first-child::before{content:attr(data-label)}
+  table.rt.rt-kv td[data-label=""]{text-align:left}
+  table.rt.rt-kv td[data-label=""]::before{content:none}
+  table.rt tr.total{background:var(--pale-sage)}
+  table.rt tr.total td{background:transparent}
+  .scroll-hint{display:none}
+  .worksheet .row{flex-direction:column;align-items:stretch;gap:4px}
+  .worksheet .blank{min-width:0;width:100%;min-height:30px}
+}
+@media screen and (max-width:440px){
+  .glance-grid{gap:10px}
+  .glance-card{display:grid;grid-template-columns:96px minmax(0,1fr);column-gap:14px;align-items:baseline;padding:14px 16px}
+  .glance-card .num{font-size:26px}
+  .glance-card .lbl{margin-top:0}
+  .hero .actions .btn{flex:1 1 100%}
+}
+@page{size:letter;margin:0.6in 0.7in}
+@media print{
+  html{scroll-behavior:auto}
+  body{font-size:10.5pt;line-height:1.5;background:#fff;color:#000}
+  .site-header,.toc,.toc-mobile,.skip,.hero .actions{display:none !important}
+  .layout{display:block;padding:0;max-width:none}
+  main{max-width:none}
+  .hero{background:#fff;color:var(--deep-forest);border-bottom:3px solid var(--deep-forest)}
+  .hero .inner{padding:0 0 14pt}
+  .hero h1{color:var(--deep-forest);font-size:28pt}
+  .hero h1 em{color:var(--forest-light)}
+  .hero .lede,.hero .meta{color:var(--charcoal)}
+  .eyebrow{color:var(--rust-dark)}
+  .glance{margin:14pt 0 0;padding:0}
+  .glance-grid{grid-template-columns:repeat(5,1fr);gap:8pt}
+  .glance-card{box-shadow:none;border:1px solid var(--pale-sage);border-top:3px solid var(--rust);padding:8pt}
+  .glance-card .num{font-size:18pt}
+  .glance-card .lbl{font-size:9pt}
+  section.chapter{margin-bottom:22pt}
+  section.chapter > h2{font-size:20pt}
+  section.chapter h3{font-size:14pt;margin-top:16pt}
+  h1,h2,h3,h4,.tag,summary{break-after:avoid;page-break-after:avoid}
+  p,li{orphans:3;widows:3}
+  .note,.formula,.card,.callout-do,.callout-watch,.worksheet,.advisor,.timeline,.glance-card,.ex-math,caption{break-inside:avoid;page-break-inside:avoid}
+  tr,li{break-inside:avoid;page-break-inside:avoid}
+  .example h4,.example .badge{break-after:avoid;page-break-after:avoid}
+  .table-wrap:not(.long){break-inside:avoid;page-break-inside:avoid}
+  .table-wrap{overflow:visible;box-shadow:none;border:1px solid var(--pale-sage)}
+  table,table.compare{min-width:0;font-size:9.5pt}
+  thead{display:table-header-group}
+  th{background:var(--deep-forest) !important;color:#fff !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cards-2{grid-template-columns:1fr 1fr}
+  .card,.example{box-shadow:none}
+  details.more{box-shadow:none;border:1px solid var(--pale-sage)}
+  details.more > summary{padding:8pt 10pt 4pt;list-style:none}
+  details.more > summary::after,details.more[open] > summary::after{content:none}
+  details.more > .more-body{padding:0 10pt 6pt;border-top:0}
+  details::details-content{content-visibility:visible;display:block}
+  a{color:var(--rust-dark);border:0}
+  .sources li > a[href^="http"]::after{content:" (" attr(href) ")";color:var(--muted-text);font-size:8.5pt;word-break:break-all}
+  .advisor a.btn[href^="http"]::after{content:" \2014 " attr(href)}
+  .advisor{background:#fff;color:var(--charcoal);border:2px solid var(--deep-forest)}
+  .advisor .pull,.advisor strong,.advisor h3{color:var(--deep-forest) !important}
+  .advisor .btn{background:#fff;color:var(--rust-dark);padding:0;border:0}
+  .site-footer{background:#fff;color:var(--charcoal);margin-top:12pt;border-top:2px solid var(--deep-forest)}
+  .site-footer .lockup,.site-footer .lockup .wordmark{color:var(--deep-forest)}
+  .site-footer .lockup svg g{fill:var(--deep-forest)}
+  .site-footer a{color:var(--rust-dark)}
+  /* Page fill: the big cards (penalties, measurement methods) may split across pages; summaries and badges stay with what follows */
+  .more-body .card,#penalties .cards-2 .card{break-inside:auto;page-break-inside:auto}
+  details.more > summary{break-inside:avoid;page-break-inside:avoid}
+  .example .badge{display:table}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="lockup" href="https://nexusbenefitsolutions.com/" aria-label="Nexus Benefit Solutions home"><svg class="mark" viewBox="0 0 1200 867" role="img" aria-label="Nexus mark" focusable="false"><g transform="translate(0,867) scale(0.1,-0.1)" fill="#1F3D2E"><path d="M5760 8014 c-1080 -77 -2054 -604 -2704 -1464 -381 -503 -621 -1090 -712 -1740 -22 -157 -30 -628 -14 -802 81 -893 474 -1710 1119 -2330 582 -559 1305 -901 2126 -1005 196 -24 654 -24 850 0 821 104 1544 446 2126 1005 645 620 1038 1437 1119 2330 16 174 8 645 -14 802 -119 849 -492 1588 -1097 2174 -580 562 -1320 914 -2129 1011 -129 16 -550 27 -670 19z m455 -174 c493 -33 913 -146 1355 -366 352 -175 636 -380 916 -660 591 -593 948 -1366 1015 -2198 14 -184 7 -543 -15 -716 -137 -1056 -723 -1974 -1623 -2543 -145 -92 -447 -241 -617 -306 -800 -303 -1692 -303 -2492 0 -170 65 -472 214 -617 306 -819 518 -1389 1340 -1577 2273 -44 220 -61 373 -67 616 -6 253 6 447 43 669 167 991 744 1856 1601 2398 144 91 446 241 613 304 472 179 974 255 1465 223z"/>
+<path d="M5735 7599 c-649 -53 -1275 -303 -1790 -715 -134 -107 -383 -355 -486 -484 -381 -477 -607 -992 -699 -1595 -28 -178 -38 -574 -21 -761 132 -1402 1113 -2546 2476 -2888 256 -64 486 -91 785 -91 305 0 530 27 800 95 1172 296 2092 1221 2380 2394 70 289 95 526 87 864 -5 253 -23 414 -68 617 -93 421 -281 846 -522 1185 -227 318 -518 605 -832 819 -615 420 -1370 621 -2110 560z m-230 -767 c6 -4 177 -349 380 -767 203 -418 423 -872 490 -1010 67 -137 238 -491 381 -785 l259 -534 3 1109 c4 1455 -3 1548 -120 1711 -58 81 -183 144 -286 144 l-33 0 3 68 3 67 500 0 500 0 3 -67 3 -67 -43 -11 c-119 -31 -189 -63 -230 -107 -36 -38 -83 -142 -105 -233 -16 -70 -18 -218 -23 -2355 l-5 -2280 -37 -3 -37 -3 -120 239 -120 240 -11 108 c-51 498 -212 891 -492 1199 -66 72 -227 226 -256 244 -8 5 -585 1157 -996 1991 l-71 145 -5 -696 -5 -697 -77 65 -78 65 0 809 0 809 -56 113 c-128 254 -191 321 -329 346 -32 6 -60 11 -62 11 -2 0 -3 32 -3 70 l0 70 533 0 c292 0 537 -4 542 -8z m-1250 -252 c-12 -19 -55 -179 -74 -272 -90 -441 -29 -839 181 -1196 189 -320 523 -631 1041 -967 575 -375 660 -437 842 -620 156 -156 242 -273 335 -458 150 -298 217 -603 225 -1026 2 -112 3 -202 1 -200 -2 2 -23 49 -46 104 -90 215 -185 369 -305 494 -100 104 -174 157 -306 220 -134 64 -244 96 -591 172 -487 106 -708 182 -948 327 -399 241 -648 592 -727 1025 -23 129 -23 389 1 522 20 110 75 290 106 345 16 28 19 30 15 10 -13 -64 -25 -215 -25 -315 0 -365 106 -656 318 -871 114 -116 230 -196 417 -289 207 -102 314 -141 667 -244 358 -104 488 -150 633 -220 222 -109 400 -262 525 -452 33 -50 60 -88 60 -85 0 4 -18 41 -39 84 -65 129 -154 254 -257 362 -154 160 -299 262 -699 490 -375 215 -551 332 -755 503 -523 438 -814 955 -860 1532 -23 293 37 621 161 867 41 81 95 168 105 168 3 0 2 -5 -1 -10z m787 -3891 c8 -279 38 -443 96 -539 25 -40 94 -110 135 -136 44 -29 135 -54 194 -54 l43 0 0 -65 0 -65 -540 0 -540 0 0 65 0 64 38 6 c141 22 191 42 258 107 107 104 154 323 154 724 l0 153 78 -28 77 -29 7 -203z"/></g></svg><span class="wordmark">Nexus Benefit Solutions</span></a>
+    <a class="btn btn-primary" href="https://nexusbenefitsolutions.com/contact">Talk with an advisor</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="inner">
+    <p class="eyebrow">Owner's Guide · ACA Employer Mandate</p>
+    <h1>Crossing 50: <em>An Owner's Guide</em> to the ACA Employer Mandate</h1>
+    <p class="lede">What changes when your business reaches 50 full-time-equivalent employees, when coverage actually has to start, what the penalties really cost, and the strategies owners use to stay compliant without losing control of the budget.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#ale">Start with the formula</a>
+      <a class="btn btn-outline" href="#strategies">Jump to the strategies</a>
+    </div>
+    <p class="meta">Figures current as of September 25, 2026 · Includes 2026 and 2027 IRS amounts · General information, not tax or legal advice</p>
+  </div>
+</div>
+
+<div class="glance" role="region" aria-label="Key figures at a glance">
+  <div class="glance-grid">
+    <div class="glance-card"><div class="num">50</div><div class="lbl">Full-time plus full-time-equivalent employees, averaged over last year, makes you a large employer<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></div></div>
+    <div class="glance-card"><div class="num">30 hrs</div><div class="lbl">A week (or 130 hours a month) makes someone full-time<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></div></div>
+    <div class="glance-card"><div class="num">$3,780</div><div class="lbl">2027 "A" penalty per full-time employee, after the first 30<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-26-22.pdf" title="IRS Rev. Proc. 2026-22" target="_blank" rel="noopener">[9]</a></div></div>
+    <div class="glance-card"><div class="num">$5,670</div><div class="lbl">2027 "B" penalty per subsidized full-time employee (capped)<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-26-22.pdf" title="IRS Rev. Proc. 2026-22" target="_blank" rel="noopener">[9]</a></div></div>
+    <div class="glance-card"><div class="num">10.22%</div><div class="lbl">2027 affordability limit on the employee's cost for employee-only coverage<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-26-26.pdf" title="IRS Rev. Proc. 2026-26" target="_blank" rel="noopener">[11]</a></div></div>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="toc" aria-label="Table of contents">
+    <h2>In this guide</h2>
+    <ol><li><a href="#ale">Am I a large employer?</a></li><li><a href="#timing">When does coverage have to start?</a></li><li><a href="#penalties">The penalties: A and B</a></li><li><a href="#affordable">What "affordable" and "minimum value" mean</a></li><li><a href="#pricing">How pricing works, and estimating your cost</a></li><li><a href="#philosophy">The strategy question</a></li><li><a href="#strategies">Strategies businesses use, side by side</a></li><li><a href="#measurement">Measurement for variable-hour workforces, and reporting</a></li><li><a href="#advisor">Owner's checklist, and why an advisor matters</a></li><li><a href="#sources">Sources</a></li></ol>
+  </nav>
+
+  <main id="content">
+    <details class="toc-mobile">
+      <summary>In this guide</summary>
+      <ol><li><a href="#ale">Am I a large employer?</a></li><li><a href="#timing">When does coverage have to start?</a></li><li><a href="#penalties">The penalties: A and B</a></li><li><a href="#affordable">What "affordable" and "minimum value" mean</a></li><li><a href="#pricing">How pricing works, and estimating your cost</a></li><li><a href="#philosophy">The strategy question</a></li><li><a href="#strategies">Strategies businesses use, side by side</a></li><li><a href="#measurement">Measurement for variable-hour workforces, and reporting</a></li><li><a href="#advisor">Owner's checklist, and why an advisor matters</a></li><li><a href="#sources">Sources</a></li></ol>
+    </details>
+
+    <p class="intro">Most owners hear about the employer mandate secondhand: a "grace period," a penalty number from a friend, a quote from a carrier. The actual rules are more predictable than that. Once you understand them, the decision becomes a business decision instead of a deadline scramble. This guide walks through the rules in plain English, flags the things you need to be thinking about, then lays out the options side by side.</p>
+    <div class="note scope" role="note">
+      <span class="note-title">What "ACA" and "coverage" mean in this guide</span>
+      <p>Throughout this guide, "ACA" and "coverage" mean <strong>group medical coverage for employees</strong>. They don't mean dental, vision, or other benefits. (One narrow dental point, pediatric dental in small-group plans, gets a short note in <a href="#pediatric-dental">section 5</a>.)</p>
+    </div>
+    <section class="chapter" id="ale" aria-labelledby="h-ale">
+      <p class="tag">01 — The threshold</p>
+      <h2 id="h-ale">Am I a large employer?</h2>
+      <p>The law calls a business with 50 or more full-time employees, including full-time equivalents, an <strong>applicable large employer (ALE)</strong>. ALEs are subject to the employer mandate and the annual IRS reporting that comes with it.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></p>
+
+      <h3>The formula, step by step</h3>
+      <ol>
+        <li><strong>Count full-time employees each month.</strong> Full-time means an average of at least 30 hours of service a week, or 130 hours in a calendar month.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a> Paid time off (vacation, holiday, sick leave) counts as hours of service.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-1" title="26 CFR 54.4980H-1 — Definitions (eCFR)" target="_blank" rel="noopener">[3]</a></li>
+        <li><strong>Convert part-time hours into full-time equivalents (FTEs).</strong> Add up the month's hours for everyone who isn't full-time, counting no more than 120 hours for any one person, then divide by 120.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></li>
+        <li><strong>Add the two for each month of the prior calendar year,</strong> total the 12 months, and divide by 12. Round a fractional result down.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></li>
+        <li><strong>50 or more?</strong> You're an ALE for the current calendar year.</li>
+      </ol>
+      <div class="formula" role="note">
+        <div class="f-line">Monthly count = full-time employees + (part-time hours, capped at 120 per person, ÷ 120)</div>
+        <div class="f-line" style="margin-top:6px">ALE status = average of last year's 12 monthly counts ≥ 50</div>
+        <div class="f-sub">Part-time hours matter only for this test. An ALE doesn't have to offer coverage to part-time employees, and a part-timer's subsidy can't trigger a penalty.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></div>
+      </div>
+
+      <div class="example">
+        <span class="badge">Hypothetical round numbers</span>
+        <h4>A growing company, month by month</h4>
+        <p>A hypothetical company grows during the year. Its part-time staff work a combined number of hours each month (no one over 120 counted).</p>
+        <div class="table-wrap">
+          <table class="rt rt-kv">
+            <caption>Round hypothetical numbers for illustration.</caption>
+            <thead><tr><th scope="col">Months</th><th scope="col" class="num">Full-time</th><th scope="col" class="num">Part-time hours</th><th scope="col" class="num">FTEs (÷120)</th><th scope="col" class="num">Monthly count</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Months">January–April</td><td class="num" data-label="Full-time">36</td><td class="num" data-label="Part-time hours">960</td><td class="num" data-label="FTEs (÷120)">8</td><td class="num" data-label="Monthly count">44</td></tr>
+              <tr><td data-label="Months">May–August</td><td class="num" data-label="Full-time">38</td><td class="num" data-label="Part-time hours">1,680</td><td class="num" data-label="FTEs (÷120)">14</td><td class="num" data-label="Monthly count">52</td></tr>
+              <tr><td data-label="Months">September–December</td><td class="num" data-label="Full-time">40</td><td class="num" data-label="Part-time hours">1,920</td><td class="num" data-label="FTEs (÷120)">16</td><td class="num" data-label="Monthly count">56</td></tr>
+              <tr class="total"><td data-label="Months">12-month average</td><td colspan="3" data-label="">(4×44 + 4×52 + 4×56) ÷ 12 = 50.67, rounded down to 50</td><td class="num" data-label="Monthly count">ALE</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin:0">This company is an ALE for the <strong>next</strong> calendar year, even though it was under 50 for the first four months. Only 40 of its people are full-time; the rest of the count comes from part-time hours. That split matters later, because the penalties are figured on full-time employees only.</p>
+      </div>
+
+
+      <div class="callout-watch" id="overlap"><span class="ico" aria-hidden="true">!</span><p><strong>At exactly 50, you can be both "large" and "small."</strong> Fifty is where the employer mandate starts: an average of 50 or more full-time employees, including full-time equivalents, makes you an ALE.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a> But Michigan insurance law still treats an employer as a <em>small</em> group up to an average of 50 full-time employees.<a class="cite" href="https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3701" title="Michigan Compiled Laws 500.3701 — Definitions (small employer)" target="_blank" rel="noopener">[21]</a> So a business averaging exactly 50 is subject to the mandate <strong>and</strong> still buys coverage in the small-group market, with small-group pricing rules (see <a href="#pricing">section 5</a>). At 51 and up, you're in the large-group market.</p></div>
+
+      <h3>Commonly owned businesses count together</h3>
+      <p>Companies with a common owner, or that are otherwise related under the controlled-group rules of Internal Revenue Code section 414, are generally combined to decide ALE status. If the group together reaches 50, every company in it is an ALE member, even one with only a handful of employees. Any penalty is still figured separately for each company.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></p>
+      <div class="callout-watch"><span class="ico" aria-hidden="true">!</span><p><strong>Worth checking early:</strong> if you or your partners own other businesses, or payroll runs through a separate LLC, have your CPA confirm how the ownership rules apply before you rely on a headcount.</p></div>
+
+      <h3>Two narrow exceptions</h3>
+      <ul>
+        <li><strong>Seasonal workers.</strong> You're not an ALE if you were over 50 for 120 days or fewer last year and everyone above 50 during that stretch was a seasonal worker (for example, holiday-only retail staff).<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a> This rarely helps a year-round business.</li>
+        <li><strong>Military coverage.</strong> An employee isn't counted toward the 50 for a month in which they have TRICARE or VA health coverage.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></li>
+      </ul>
+      <p>A brand-new business with no prior-year history uses a different test, based on what it expects to employ in its first year.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></p>
+    </section>
+
+    <section class="chapter" id="timing" aria-labelledby="h-timing">
+      <p class="tag">02 — The calendar</p>
+      <h2 id="h-timing">When does coverage have to start?</h2>
+      <p>There is <strong>no 12-month grace period</strong> after you cross 50. ALE status is set once a year, for the calendar year, based on the prior calendar year's average.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a> The month you first hit 50 doesn't start a clock; the full-year average does.</p>
+      <p>The "12 months" people remember usually comes from one of two other rules: the look-back <em>measurement period</em>, used to decide which employees count as full-time (see <a href="#measurement">section 8</a>), or the first-year relief below. Neither delays ALE status itself.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+
+      <h3>First-year relief: offer by April 1</h3>
+      <p>In your <strong>first</strong> year as an ALE, if you offer coverage by April 1 to full-time employees who weren't offered coverage at any point in the prior year, you won't owe a penalty for January through March for those employees.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-2" title="26 CFR 54.4980H-2 — Applicable large employer status (eCFR)" target="_blank" rel="noopener">[4]</a></p>
+      <ul>
+        <li>Relief from the <strong>B</strong> penalty for those months applies only if the coverage offered by April 1 provides <a href="#affordable">minimum value</a>.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-2" title="26 CFR 54.4980H-2 — Applicable large employer status (eCFR)" target="_blank" rel="noopener">[4]</a></li>
+        <li>Miss April 1 and penalties can reach back to January.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-2" title="26 CFR 54.4980H-2 — Applicable large employer status (eCFR)" target="_blank" rel="noopener">[4]</a></li>
+        <li>It's a one-time rule. If you drop below 50 later and cross again, it doesn't apply a second time.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-2" title="26 CFR 54.4980H-2 — Applicable large employer status (eCFR)" target="_blank" rel="noopener">[4]</a></li>
+      </ul>
+
+      <h3>A typical timeline</h3>
+      <ol class="timeline" aria-label="Typical first-year ALE timeline">
+        <li><span class="dot" aria-hidden="true"></span><div class="when">Year 1 (growth year)</div><div class="what">Your 12-month average reaches 50. Track hours monthly.</div></li>
+        <li><span class="dot" aria-hidden="true"></span><div class="when">Year 1, fall</div><div class="what">Confirm the count, choose a strategy, set up measurement, get pricing.</div></li>
+        <li><span class="dot" aria-hidden="true"></span><div class="when">Year 2, January 1</div><div class="what">You're an ALE. Ideally, coverage starts now.</div></li>
+        <li class="key"><span class="dot" aria-hidden="true"></span><div class="when">Year 2, April 1</div><div class="what">Latest offer date to use first-year relief (minimum-value plan for B relief).</div></li>
+        <li><span class="dot" aria-hidden="true"></span><div class="when">Year 3, Feb–March</div><div class="what">First Forms 1094-C and 1095-C, covering Year 2, are due.</div></li>
+      </ol>
+      <div class="table-wrap">
+        <table class="rt">
+          <caption>What the prior year's average means for this year.</caption>
+          <thead><tr><th scope="col">If your average was…</th><th scope="col">Then…</th></tr></thead>
+          <tbody>
+            <tr><td data-label="If your average was…">Under 50 last year, 50+ this year</td><td data-label="Then…">You're an ALE starting January 1 next year. First-year relief lets you offer by April 1 next year.</td></tr>
+            <tr><td data-label="If your average was…">50+ last year</td><td data-label="Then…">You're an ALE <strong>this</strong> year. If it's your first ALE year, this year's April 1 is the relief date.</td></tr>
+            <tr><td data-label="If your average was…">Over 50 now, but a slow start keeps this year's average under 50</td><td data-label="Then…">Not yet. Recheck next year.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout-do"><span class="ico" aria-hidden="true">✓</span><p><strong>New hires once you're an ALE:</strong> a group health plan can't make eligible employees wait more than 90 days for coverage.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.9815-2708" title="26 CFR 54.9815-2708 — 90-day waiting period limitation (eCFR)" target="_blank" rel="noopener">[17]</a> The penalty rules give you up to three full calendar months to offer coverage to a new full-time hire, as long as the offer comes by the first day of the fourth month.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" title="26 CFR 54.4980H-3 — Determining full-time employees (eCFR)" target="_blank" rel="noopener">[5]</a></p></div>
+    </section>
+
+    <section class="chapter" id="penalties" aria-labelledby="h-penalties">
+      <p class="tag">03 — The exposure</p>
+      <h2 id="h-penalties">The penalties: A and B</h2>
+      <p>The IRS calls these "employer shared responsibility payments." There are two, and for any given month you can owe one or the other, never both. Neither applies unless at least one <strong>full-time</strong> employee enrolls in Marketplace coverage and receives a premium tax credit (a subsidy).<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+
+      <div class="cards-2">
+        <div class="card forest">
+          <h3 class="card-h">The "A" penalty: not offering</h3>
+          <p><strong>Triggered when</strong> you don't offer minimum essential coverage to at least 95% of full-time employees (and their children under 26), and at least one full-time employee gets a subsidy.</p>
+          <p><strong>Math:</strong> (all full-time employees − 30) × the annual amount, figured month by month at 1/12.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-4" title="26 CFR 54.4980H-4 — Assessable payment under 4980H(a) (eCFR)" target="_blank" rel="noopener">[6]</a></p>
+          <p>"95%" means everyone but 5% of full-time employees, or everyone but 5 people if that's more.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+        </div>
+        <div class="card accent">
+          <h3 class="card-h">The "B" penalty: offering, but falling short</h3>
+          <p><strong>Triggered when</strong> you do offer coverage to 95% or more, but a full-time employee gets a subsidy because the offer was unaffordable, didn't provide minimum value, or they were among the up-to-5% not offered.</p>
+          <p><strong>Math:</strong> each full-time employee who gets a subsidy × the annual amount (monthly at 1/12), <strong>capped at what the A penalty would have been.</strong><a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="rt rt-kv">
+          <caption>Amounts are indexed annually. Monthly figures are 1/12 of the annual amount, rounded to the cent.</caption>
+          <thead><tr><th scope="col">Calendar year</th><th scope="col" class="num">A penalty (per FT employee, minus 30)</th><th scope="col" class="num">B penalty (per subsidized FT employee)</th><th scope="col">Source</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Calendar year">2026</td><td class="num" data-label="A penalty (per FT employee, minus 30)">$3,340 / yr ($278.33 / mo)</td><td class="num" data-label="B penalty (per subsidized FT employee)">$5,010 / yr ($417.50 / mo)</td><td data-label="Source">Rev. Proc. 2025-26<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-25-26.pdf" title="IRS Rev. Proc. 2025-26" target="_blank" rel="noopener">[8]</a></td></tr>
+            <tr><td data-label="Calendar year">2027</td><td class="num" data-label="A penalty (per FT employee, minus 30)">$3,780 / yr ($315.00 / mo)</td><td class="num" data-label="B penalty (per subsidized FT employee)">$5,670 / yr ($472.50 / mo)</td><td data-label="Source">Rev. Proc. 2026-22<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-26-22.pdf" title="IRS Rev. Proc. 2026-22" target="_blank" rel="noopener">[9]</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Worked examples: what the math looks like</h3>
+      <p>Three quick illustrations with round numbers. They aren't an exposure analysis for your business; they show the things you need to be thinking about. All three use 2027 amounts<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-26-22.pdf" title="IRS Rev. Proc. 2026-22" target="_blank" rel="noopener">[9]</a> and assume at least one full-time employee gets a premium tax credit, which is what triggers any penalty.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+
+      <div class="example">
+        <span class="badge">Hypothetical round numbers</span>
+        <h4>1. Sixty full-time employees, no offer</h4>
+        <p>A company has 60 full-time employees all year and offers no medical coverage.</p>
+        <div class="ex-math">
+          <div>A penalty = (60 − 30) × $3,780</div>
+          <div>= 30 × $3,780 = <strong>$113,400</strong> for 2027</div>
+        </div>
+        <p>At 2026 amounts, the same company would owe 30 × $3,340 = $100,200.<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-25-26.pdf" title="IRS Rev. Proc. 2025-26" target="_blank" rel="noopener">[8]</a> Every full-time employee counts, whether or not they would have enrolled; the first 30 are subtracted once.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-4" title="26 CFR 54.4980H-4 — Assessable payment under 4980H(a) (eCFR)" target="_blank" rel="noopener">[6]</a></p>
+      </div>
+
+      <div class="example">
+        <span class="badge">Hypothetical round numbers</span>
+        <h4>2. The same 60, offered a plan that falls short</h4>
+        <p>Now the company offers everyone a basic MEC-only plan that doesn't provide <a href="#affordable">minimum value</a>. The offer takes the A penalty off the table, but each full-time employee who gets a premium tax credit triggers the B penalty, capped at what A would have been.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+        <div class="ex-math">
+          <div>If 8 get a credit: 8 × $5,670 = <strong>$45,360</strong> (under the $113,400 cap)</div>
+          <div>If 25 get a credit: 25 × $5,670 = $141,750, capped at (60 − 30) × $3,780 = <strong>$113,400</strong></div>
+        </div>
+        <p>The question to ask: how many of your full-time people are likely to qualify for a credit? That depends mostly on wages (see "Who can get a subsidy?" below).</p>
+      </div>
+
+      <div class="example">
+        <span class="badge">Hypothetical round numbers</span>
+        <h4>3. An ALE because of part-time hours</h4>
+        <p>A company averages 45 full-time employees plus 1,200 part-time hours a month (1,200 ÷ 120 = 10 FTEs). Its count is 55, so it's an ALE.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a> It offers no coverage.</p>
+        <div class="ex-math">
+          <div>A penalty = (45 − 30) × $3,780</div>
+          <div>= 15 × $3,780 = <strong>$56,700</strong> for 2027</div>
+        </div>
+        <p>Part-time hours decide whether you're an ALE, but the penalty is figured on full-time employees only.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></p>
+      </div>
+      <div class="note">
+        <span class="note-title">Three details owners often miss</span>
+        <ul>
+          <li><strong>The first 30 full-time employees are subtracted.</strong> A business can be an ALE because of part-time hours and still have little or no A exposure if its full-time count sits near 30. In a group of related companies, the 30 is split among them in proportion to full-time headcount.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-4" title="26 CFR 54.4980H-4 — Assessable payment under 4980H(a) (eCFR)" target="_blank" rel="noopener">[6]</a></li>
+          <li><strong>The penalties aren't tax-deductible.</strong><a class="cite" href="https://www.law.cornell.edu/uscode/text/26/4980H" title="26 U.S.C. 4980H (Cornell LII)" target="_blank" rel="noopener">[15]</a> Premiums you pay generally are.</li>
+          <li><strong>Being an ALE carries obligations even at $0.</strong> Tracking full-time status and filing Forms 1094-C and 1095-C apply regardless.<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a></li>
+        </ul>
+      </div>
+
+      <h3>Who can get a subsidy?</h3>
+      <p>Generally, someone with household income between 100% and 400% of the federal poverty line who isn't eligible for affordable, minimum-value employer coverage or for Medicaid.<a class="cite" href="https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit" title="IRS — Eligibility for the premium tax credit" target="_blank" rel="noopener">[20]</a> For a single person, 100% of the 2026 poverty line is $15,960.<a class="cite" href="https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines" title="HHS — Annual update of the HHS poverty guidelines (Federal Register, Jan. 15, 2026)" target="_blank" rel="noopener">[12]</a> A full-time hourly employee earning $17 an hour for 30 hours a week makes about $26,520 a year, roughly 166% of the poverty line for a one-person household. That is squarely in subsidy range, which is why <strong>B-penalty risk is higher for lower-wage workforces</strong>. Employees who enroll in Medicaid instead don't trigger a penalty.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p>
+    </section>
+    <section class="chapter" id="affordable" aria-labelledby="h-affordable">
+      <p class="tag">04 — The two tests</p>
+      <h2 id="h-affordable">What "affordable" and "minimum value" mean</h2>
+      <p>To avoid the B penalty for a full-time employee, the coverage you offer that person has to pass two tests: it must be <strong>affordable</strong>, and it must provide <strong>minimum value</strong>.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/minimum-value-and-affordability" title="IRS — Minimum value and affordability" target="_blank" rel="noopener">[13]</a></p>
+
+      <h3>Affordable</h3>
+      <p>Coverage is affordable if the employee's cost for the <strong>lowest-cost employee-only (self-only) plan that provides minimum value</strong> doesn't exceed a set percentage of income.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a> That percentage is <strong>9.96% for plan years beginning in 2026</strong><a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-25-25.pdf" title="IRS Rev. Proc. 2025-25" target="_blank" rel="noopener">[10]</a> and <strong>10.22% for plan years beginning in 2027</strong>.<a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-26-26.pdf" title="IRS Rev. Proc. 2026-26" target="_blank" rel="noopener">[11]</a></p>
+      <div class="callout-do"><span class="ico" aria-hidden="true">✓</span><p><strong>Only employee-only coverage is tested.</strong> You must offer coverage to employees' children under 26 to satisfy the A penalty, but the cost of dependent coverage doesn't have to pass the affordability test.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a> Spouses don't have to be offered coverage at all for this purpose.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></p></div>
+      <p>Because you don't know employees' household income, the IRS lets you use one of three <strong>safe harbors</strong> instead.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/minimum-value-and-affordability" title="IRS — Minimum value and affordability" target="_blank" rel="noopener">[13]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a></p>
+      <div class="table-wrap">
+        <table class="rt">
+          <thead><tr><th scope="col">Safe harbor</th><th scope="col">How it works</th><th scope="col">Good fit when…</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Safe harbor"><strong>Federal poverty line (FPL)</strong></td><td data-label="How it works">Employee cost ≤ the percentage × the single-person poverty line ÷ 12. You may use any HHS poverty guideline in effect within six months before the first day of the plan year.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-1" title="26 CFR 54.4980H-1 — Definitions (eCFR)" target="_blank" rel="noopener">[3]</a></td><td data-label="Good fit when…">You want one number that works for everyone, regardless of hours or pay. The most conservative option.</td></tr>
+            <tr><td data-label="Safe harbor"><strong>Rate of pay</strong></td><td data-label="How it works">For hourly staff: the employee's monthly cost can't exceed the percentage × (130 hours × the <em>lower</em> of the employee's hourly rate on the first day of the plan year or their lowest hourly rate during that calendar month).<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a></td><td data-label="Good fit when…">Pay rates are known up front. Often a good fit for hourly teams.</td></tr>
+            <tr><td data-label="Safe harbor"><strong>Form W-2</strong></td><td data-label="How it works">Based on the employee's Box 1 wages for the year, tested after year-end.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a></td><td data-label="Good fit when…">Salaried staff with stable pay. Risky with variable hours, and pre-tax deductions lower Box 1.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="example">
+        <span class="badge">Hypothetical hourly rates</span>
+        <h4>Maximum monthly employee cost for employee-only coverage</h4>
+        <div class="table-wrap">
+          <table class="rt rt-kv">
+            <caption>Rate of pay = 130 × hourly rate × percentage. FPL = $15,960 × percentage ÷ 12, using the 2026 HHS guideline<a class="cite" href="https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines" title="HHS — Annual update of the HHS poverty guidelines (Federal Register, Jan. 15, 2026)" target="_blank" rel="noopener">[12]</a> (for 2026, this applies to plan years starting mid-January 2026 or later). Our arithmetic from the cited percentages, rounded down to the cent so each maximum passes the test.</caption>
+            <thead><tr><th scope="col">Safe harbor</th><th scope="col" class="num">2026 plan year (9.96%)</th><th scope="col" class="num">2027 plan year (10.22%)</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Safe harbor">FPL (any wage)</td><td class="num" data-label="2026 plan year (9.96%)">$132.46</td><td class="num" data-label="2027 plan year (10.22%)">$135.92</td></tr>
+              <tr><td data-label="Safe harbor">Rate of pay, $15.00/hr</td><td class="num" data-label="2026 plan year (9.96%)">$194.22</td><td class="num" data-label="2027 plan year (10.22%)">$199.29</td></tr>
+              <tr><td data-label="Safe harbor">Rate of pay, $17.00/hr</td><td class="num" data-label="2026 plan year (9.96%)">$220.11</td><td class="num" data-label="2027 plan year (10.22%)">$225.86</td></tr>
+              <tr><td data-label="Safe harbor">Rate of pay, $20.00/hr</td><td class="num" data-label="2026 plan year (9.96%)">$258.96</td><td class="num" data-label="2027 plan year (10.22%)">$265.72</td></tr>
+              <tr><td data-label="Safe harbor">Rate of pay, $25.00/hr</td><td class="num" data-label="2026 plan year (9.96%)">$323.70</td><td class="num" data-label="2027 plan year (10.22%)">$332.15</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin:0">Price the employee's share at or below the FPL figure and the offer is affordable for every full-time employee, whatever they earn. Rate of pay lets you charge higher-paid staff more, but you have to track it by pay rate.</p>
+        <p style="margin:12px 0 0;font-size:14px"><strong>Why the 2027 column uses the 2026 poverty guideline:</strong> the FPL safe harbor lets you use any HHS poverty guideline in effect within six months before the first day of the plan year.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-1" title="26 CFR 54.4980H-1 — Definitions (eCFR)" target="_blank" rel="noopener">[3]</a> The 2026 guideline was published January 15, 2026,<a class="cite" href="https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines" title="HHS — Annual update of the HHS poverty guidelines (Federal Register, Jan. 15, 2026)" target="_blank" rel="noopener">[12]</a> and the 2027 guideline isn't expected until early 2027, after a January 1, 2027 plan year has already begun. So for a plan year starting January 1, 2027, the 2026 guideline ($15,960 for one person) is the one to use. A plan year that starts later in 2027 may be able to use the 2027 guideline once it is in effect.</p>
+      </div>
+
+      <h3>Minimum value</h3>
+      <p>A plan provides minimum value if it covers <strong>at least 60% of the total allowed cost of benefits</strong> expected under the plan<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/minimum-value-and-affordability" title="IRS — Minimum value and affordability" target="_blank" rel="noopener">[13]</a> and includes <strong>substantial coverage of inpatient hospital and physician services</strong>.<a class="cite" href="https://www.irs.gov/pub/irs-drop/n-14-69.pdf" title="IRS Notice 2014-69" target="_blank" rel="noopener">[14]</a> Carriers and administrators typically confirm this with the HHS minimum value calculator.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/minimum-value-and-affordability" title="IRS — Minimum value and affordability" target="_blank" rel="noopener">[13]</a> A plan can have a high deductible and still provide minimum value. A plan built only around preventive care generally does not.</p>
+    </section>
+
+    <section class="chapter" id="pricing" aria-labelledby="h-pricing">
+      <p class="tag">05 — The budget</p>
+      <h2 id="h-pricing">How pricing works, and estimating your cost</h2>
+
+      <h3>Small group vs. large group</h3>
+      <p>In Michigan's insured market, a <strong>small employer</strong> is one that averaged 1 to 50 full-time employees (including FTEs) during the preceding calendar year and has at least one employee on the first day of the plan year, with affiliated companies counted as one.<a class="cite" href="https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3701" title="Michigan Compiled Laws 500.3701 — Definitions (small employer)" target="_blank" rel="noopener">[21]</a> That matches the federal ACA definition, which counts employees with the same full-time-plus-FTE method used for the ALE test.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-155/section-155.20" title="45 CFR 155.20 — Definitions (eCFR)" target="_blank" rel="noopener">[27]</a> (The Michigan statute still contains an older "2 to 50 eligible employees" test, but the 1-to-50 definition has applied since January 1, 2018.<a class="cite" href="https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3701" title="Michigan Compiled Laws 500.3701 — Definitions (small employer)" target="_blank" rel="noopener">[21]</a>) At 51 and up, you're in the large-group market. As noted in <a href="#overlap">section 1</a>, a business at exactly 50 is already an ALE but still prices as a small group.</p>
+      <div class="cards-2">
+        <div class="card forest">
+          <h4>Small group (1–50)</h4>
+          <p>ACA rating rules apply. Premiums can vary only by age (up to 3:1 for adults), tobacco use (up to 1.5:1), geographic rating area, and whether coverage is for an individual or a family.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.102" title="45 CFR 147.102 — Fair health insurance premiums (eCFR)" target="_blank" rel="noopener">[22]</a> Michigan uses the federal defaults.<a class="cite" href="https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/state-rating" title="CMS — Market rating reforms: state specific rating variations" target="_blank" rel="noopener">[23]</a> Rates are built member by member ("age-rated"), and carriers may also offer composite (averaged) rates.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.102" title="45 CFR 147.102 — Fair health insurance premiums (eCFR)" target="_blank" rel="noopener">[22]</a></p>
+        </div>
+        <div class="card accent">
+          <h4>Large group (51+)</h4>
+          <p>The small-group rating limits don't apply.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.102" title="45 CFR 147.102 — Fair health insurance premiums (eCFR)" target="_blank" rel="noopener">[22]</a> Carriers typically price the group as a whole, looking at factors such as the age and gender mix, industry, and location, and, as groups get larger, claims history. Level-funded and self-funded options become more common.<a class="cite" href="https://www.kff.org/health-costs/2025-employer-health-benefits-survey/" title="KFF — 2025 Employer Health Benefits Survey" target="_blank" rel="noopener">[24]</a></p>
+        </div>
+      </div>
+
+      <div class="note" id="pediatric-dental" role="note">
+        <span class="note-title">A short note on pediatric dental</span>
+        <p>Dental care for children, through at least the end of the month they turn 19, is one of the ten essential health benefits.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.110" title="45 CFR 156.110 — EHB-benchmark plan standards (eCFR)" target="_blank" rel="noopener">[31]</a><a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.115" title="45 CFR 156.115 — Provision of EHB (eCFR)" target="_blank" rel="noopener">[32]</a> Non-grandfathered, fully insured small-group plans (1 to 50) must include those benefits, and that requirement falls on the carrier's plan, not on you as the employer.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.150" title="45 CFR 147.150 — Coverage of essential health benefits (eCFR)" target="_blank" rel="noopener">[29]</a><a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.140" title="45 CFR 147.140 — Preservation of right to maintain existing coverage (eCFR)" target="_blank" rel="noopener">[30]</a> The medical plan can leave pediatric dental out when the carrier is reasonably assured the children have it through an Exchange-certified stand-alone dental plan, which doesn't have to be bought on the Exchange.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-155/subpart-K/section-155.1065" title="45 CFR 155.1065 — Stand-alone dental plans (eCFR)" target="_blank" rel="noopener">[33]</a><a class="cite" href="https://www.federalregister.gov/documents/2013/02/25/2013-04084/patient-protection-and-affordable-care-act-standards-related-to-essential-health-benefits-actuarial" title="HHS — Standards Related to Essential Health Benefits, Actuarial Value, and Accreditation, final rule (78 FR 12834, Feb. 25, 2013)" target="_blank" rel="noopener">[34]</a> Because that assurance is the carrier's job, the carrier may ask you to confirm that pediatric dental coverage is in place.<a class="cite" href="https://www.federalregister.gov/documents/2013/02/25/2013-04084/patient-protection-and-affordable-care-act-standards-related-to-essential-health-benefits-actuarial" title="HHS — Standards Related to Essential Health Benefits, Actuarial Value, and Accreditation, final rule (78 FR 12834, Feb. 25, 2013)" target="_blank" rel="noopener">[34]</a></p>
+        <p>Pediatric dental is <strong>not</strong> part of the employer mandate. A stand-alone dental plan is an excepted benefit, not minimum essential coverage, so it plays no role in the A or B penalty.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-155/subpart-K/section-155.1065" title="45 CFR 155.1065 — Stand-alone dental plans (eCFR)" target="_blank" rel="noopener">[33]</a><a class="cite" href="https://www.law.cornell.edu/uscode/text/26/5000A" title="26 U.S.C. 5000A (Cornell LII)" target="_blank" rel="noopener">[16]</a><a class="cite" href="https://www.law.cornell.edu/uscode/text/26/4980H" title="26 U.S.C. 4980H (Cornell LII)" target="_blank" rel="noopener">[15]</a> Nothing in these rules requires an employer contribution toward dental or applies a dental affordability test; the closest thing to a cost rule is the annual out-of-pocket cap inside Exchange-certified stand-alone dental plans.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.150" title="45 CFR 147.150 — Coverage of essential health benefits (eCFR)" target="_blank" rel="noopener">[29]</a><a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.150" title="45 CFR 156.150 — Application to stand-alone dental plans inside the Exchange (eCFR)" target="_blank" rel="noopener">[35]</a> Large-group and self-funded plans aren't subject to the essential-health-benefit requirement at all.<a class="cite" href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.150" title="45 CFR 147.150 — Coverage of essential health benefits (eCFR)" target="_blank" rel="noopener">[29]</a></p>
+      </div>
+
+      <h3>Coverage tiers and how employers contribute</h3>
+      <p>Plans are usually priced in tiers: employee only, employee + spouse, employee + child(ren), and family. The employer decides how much to contribute to each. Common approaches:</p>
+      <ul>
+        <li><strong>A percentage of employee-only.</strong> For example, 50% to 100% of the employee-only premium, with employees paying the full difference for dependents.</li>
+        <li><strong>A flat dollar amount.</strong> A fixed monthly contribution the employee can apply to any tier. Predictable and easy to budget.</li>
+        <li><strong>Tiered contributions.</strong> Different percentages or dollar amounts for each tier.</li>
+      </ul>
+      <p>For context, the 2025 national average premium across all firm sizes was <strong>$9,325 a year for single coverage</strong> and <strong>$26,993 for family coverage</strong> ($9,211 and $26,054 at firms with 10–199 workers). Covered workers paid, on average, 16% of the single premium and 26% of the family premium (36% for family coverage at firms with 10–199 workers).<a class="cite" href="https://www.kff.org/health-costs/2025-employer-health-benefits-survey/" title="KFF — 2025 Employer Health Benefits Survey" target="_blank" rel="noopener">[24]</a></p>
+      <div class="callout-watch"><span class="ico" aria-hidden="true">!</span><p><strong>Contribution strategy and affordability interact.</strong> Paying 50% of a $780 employee-only premium leaves the employee paying $390 a month. That's well above the 2027 FPL safe harbor ($135.92) and above the rate-of-pay limit for anyone earning less than about $29 an hour, so the offer would be unaffordable for many hourly employees and leave B exposure.</p></div>
+
+      <h3>Participation: who will actually enroll?</h3>
+      <p>Your cost depends on how many eligible employees enroll, not on how many you employ. Nationally, at firms that offer coverage, 80% of workers are eligible and 76% of eligible workers take it. At firms with a large share of lower-wage workers, only 43% of workers are covered by their employer's plan, compared with 64% at firms with a smaller share of lower-wage workers.<a class="cite" href="https://www.kff.org/health-costs/2025-employer-health-benefits-survey/" title="KFF — 2025 Employer Health Benefits Survey" target="_blank" rel="noopener">[24]</a> Younger, lower-paid, and shorter-tenure workforces tend to enroll at lower rates, and dependent enrollment is usually low when employees pay the full dependent cost.</p>
+
+      <h3>A simple cost model you can fill in</h3>
+      <div class="formula" role="note">
+        <div class="f-line">Annual employer cost ≈ eligible full-time employees × expected take-up % × monthly employer contribution per enrollee × 12</div>
+        <div class="f-sub">Add any employer contribution toward dependent tiers, and any administration fees, separately.</div>
+      </div>
+      <div class="worksheet" role="group" aria-label="Cost worksheet">
+        <div class="row"><span>Eligible full-time employees</span><span class="blank">&nbsp;</span></div>
+        <div class="row"><span>× Expected take-up (%)</span><span class="blank">&nbsp;</span></div>
+        <div class="row"><span>× Monthly employer contribution per enrollee ($)</span><span class="blank">&nbsp;</span></div>
+        <div class="row"><span>× 12 months</span><span class="blank">× 12</span></div>
+        <div class="row"><span>= Estimated annual employer cost</span><span class="blank">$</span></div>
+      </div>
+
+      <div class="example">
+        <span class="badge">Hypothetical round numbers — not a quote</span>
+        <h4>Cost example: a mostly hourly workforce</h4>
+        <p>A hypothetical company with <strong>40 eligible full-time employees</strong>, mostly hourly at $15–$20 an hour, offers one minimum-value plan in 2027. Assume an employee-only premium of <strong>$780 a month</strong>, close to the 2025 national average single premium of $9,325 a year (about $777 a month).<a class="cite" href="https://www.kff.org/health-costs/2025-employer-health-benefits-survey/" title="KFF — 2025 Employer Health Benefits Survey" target="_blank" rel="noopener">[24]</a> To meet the FPL safe harbor, the employee pays <strong>$135</strong> (under the $135.92 limit), so the employer pays <strong>$645 per enrollee per month</strong>. Dependents are offered, but employees pay the full difference.</p>
+        <div class="table-wrap">
+          <table class="rt rt-kv">
+            <caption>Illustrative arithmetic only. Actual premiums depend on your census, plan design, carrier, and market.</caption>
+            <thead><tr><th scope="col">Take-up</th><th scope="col" class="num">Enrollees</th><th scope="col">Math</th><th scope="col" class="num">Annual employer cost</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Take-up">25%</td><td class="num" data-label="Enrollees">10</td><td data-label="Math">10 × $645 × 12</td><td class="num" data-label="Annual employer cost">$77,400</td></tr>
+              <tr><td data-label="Take-up">50%</td><td class="num" data-label="Enrollees">20</td><td data-label="Math">20 × $645 × 12</td><td class="num" data-label="Annual employer cost">$154,800</td></tr>
+              <tr><td data-label="Take-up">75%</td><td class="num" data-label="Enrollees">30</td><td data-label="Math">30 × $645 × 12</td><td class="num" data-label="Annual employer cost">$232,200</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>For comparison, the same company's 2027 A-penalty exposure with no offer at all would be (40 − 30) × $3,780 = <strong>$37,800</strong>, and its B exposure under a MEC-only offer is capped at that same amount. Numbers like these are why the <a href="#philosophy">strategy question</a> matters more than any single quote.</p>
+        <p style="margin:0">If the family premium were near the 2025 national average ($26,993 a year, about $2,249 a month),<a class="cite" href="https://www.kff.org/health-costs/2025-employer-health-benefits-survey/" title="KFF — 2025 Employer Health Benefits Survey" target="_blank" rel="noopener">[24]</a> an employee adding family members would pay roughly $1,600 a month under this approach, so expect few dependent enrollments.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="philosophy" aria-labelledby="h-philosophy">
+      <p class="tag">06 — The philosophy</p>
+      <h2 id="h-philosophy">The strategy question</h2>
+      <p class="intro" style="margin-bottom:20px">Before comparing plans, answer one question: <em>do you want employees to jump on the plan, or do you want the best plan you can offer while limiting your cost exposure?</em></p>
+      <h3>Two philosophies</h3>
+      <p>Both are legitimate. The right answer depends on your margins, your labor market, and what you're trying to build.</p>
+      <div class="cards-2">
+        <div class="card forest">
+          <h4>"We want people on the plan"</h4>
+          <ul>
+            <li>Benefits become a recruiting and retention tool.</li>
+            <li>A richer plan and a bigger employer share drive enrollment.</li>
+            <li>Cost rises with every enrollee, so budget for high take-up.</li>
+            <li>Best when turnover is expensive or competitors already offer strong benefits.</li>
+          </ul>
+        </div>
+        <div class="card accent">
+          <h4>"Compliant, good, and cost-contained"</h4>
+          <ul>
+            <li>Meet the mandate and offer something of real value.</li>
+            <li>Structure the offer so your maximum cost is known in advance.</li>
+            <li>Accept that fewer employees may enroll.</li>
+            <li>Best when margins are thin or much of the workforce is part-time or short-tenure.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>The levers you control</h3>
+      <ul>
+        <li><strong>Contribute on employee-only coverage.</strong> Affordability is tested only on employee-only coverage, so many employers fund that tier and let employees pay for dependents.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a></li>
+        <li><strong>Offer dependents without subsidizing them.</strong> Offering coverage to children under 26 is required for the A penalty; paying for it isn't.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a></li>
+        <li><strong>Use a waiting period.</strong> Up to 90 days for newly eligible employees.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.9815-2708" title="26 CFR 54.9815-2708 — 90-day waiting period limitation (eCFR)" target="_blank" rel="noopener">[17]</a> In high-turnover businesses, this reduces enrollment among very short-tenure hires.</li>
+        <li><strong>Choose your measurement method.</strong> For variable-hour staff, the look-back method fixes who counts as full-time for a stable period and smooths month-to-month swings (see <a href="#measurement">section 8</a>).<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" title="26 CFR 54.4980H-3 — Determining full-time employees (eCFR)" target="_blank" rel="noopener">[5]</a></li>
+        <li><strong>Limit eligibility to full-time employees.</strong> You aren't required to offer coverage to part-time employees.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></li>
+        <li><strong>Plan design.</strong> Deductibles, networks, and plan options change the premium. A plan that clears minimum value costs less than a rich one, and you can offer a richer buy-up alongside it.</li>
+        <li><strong>Pick the right affordability safe harbor.</strong> FPL is simplest; rate of pay can allow a higher employee share for better-paid staff.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a></li>
+      </ul>
+    </section>
+    <section class="chapter" id="strategies" aria-labelledby="h-strategies">
+      <p class="tag">07 — The options</p>
+      <h2 id="h-strategies">Strategies businesses use, side by side</h2>
+      <p>There's no single right answer. Here's how the common approaches compare on compliance, cost, and what employees experience.</p>
+      <div class="table-wrap long">
+        <table class="compare rt">
+          <caption>Penalty amounts at 2027 levels. B exposure is always capped at the A amount. <span class="scroll-hint">Scroll sideways on small screens.</span></caption>
+          <thead><tr><th scope="col">Strategy</th><th scope="col">A penalty</th><th scope="col">B penalty</th><th scope="col">Employer cost profile</th><th scope="col">Employee experience</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Strategy"><strong>(a) Offer nothing; pay A</strong></td><td data-label="A penalty">Owed if any full-time employee gets a subsidy: (FT − 30) × $3,780</td><td data-label="B penalty">Not applicable</td><td data-label="Employer cost profile">Known, but not deductible; reporting still required</td><td data-label="Employee experience">No employer plan; employees use the Marketplace</td></tr>
+            <tr><td data-label="Strategy"><strong>(b) MEC-only plan</strong></td><td data-label="A penalty">Satisfied if offered to 95%+ of FT employees and their children</td><td data-label="B penalty">Owed for each FT employee who gets a subsidy; capped at A</td><td data-label="Employer cost profile">Low premium; B risk rises as wages fall</td><td data-label="Employee experience">Mostly preventive care; little protection for big claims</td></tr>
+            <tr><td data-label="Strategy"><strong>(c) MEC + affordable minimum-value plan (MVP)</strong></td><td data-label="A penalty">Satisfied</td><td data-label="B penalty">Largely eliminated for FT employees offered the affordable MVP</td><td data-label="Employer cost profile">Employer share only for MVP enrollees; scales with take-up</td><td data-label="Employee experience">A choice: basic plan, or real medical coverage at a capped price</td></tr>
+            <tr><td data-label="Strategy"><strong>(d) Comprehensive plan</strong></td><td data-label="A penalty">Satisfied</td><td data-label="B penalty">Eliminated if the lowest-cost employee-only option is affordable</td><td data-label="Employer cost profile">Highest; most exposed to take-up and renewals</td><td data-label="Employee experience">Strongest benefit; best for recruiting</td></tr>
+            <tr><td data-label="Strategy"><strong>(e) ICHRA</strong></td><td data-label="A penalty">Counts as an offer of coverage</td><td data-label="B penalty">Avoided if the allowance makes coverage affordable (lowest-cost silver plan test)</td><td data-label="Employer cost profile">A fixed allowance you set by employee class</td><td data-label="Employee experience">Employees choose their own individual plans</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Each option in detail</h3>
+      <h4>(a) Offer nothing and pay the A penalty</h4>
+      <p>Some employers compare the A penalty with the cost of a plan and choose the penalty. It's predictable, but it isn't deductible,<a class="cite" href="https://www.law.cornell.edu/uscode/text/26/4980H" title="26 U.S.C. 4980H (Cornell LII)" target="_blank" rel="noopener">[15]</a> it grows with every full-time hire above 30, it doesn't remove the reporting obligation,<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a> and it leaves you without a benefit to recruit with.</p>
+
+      <h4>(b) Minimum essential coverage (MEC) only</h4>
+      <p>A MEC plan is a basic group health plan, typically built around preventive care, that counts as an offer of coverage. Offered to at least 95% of full-time employees and their children, it satisfies the A penalty.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a> Because it doesn't provide minimum value, any full-time employee can decline it, buy Marketplace coverage, and, if income-eligible, receive a subsidy. That triggers the B penalty for that person, capped at the A amount.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/minimum-value-and-affordability" title="IRS — Minimum value and affordability" target="_blank" rel="noopener">[13]</a> As section 3 shows, <strong>lower-wage full-time employees are more likely to qualify for subsidies</strong>, so B risk is higher for hourly workforces.<a class="cite" href="https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit" title="IRS — Eligibility for the premium tax credit" target="_blank" rel="noopener">[20]</a></p>
+
+      <h4>(c) MEC plus an affordable minimum-value plan</h4>
+      <p>Offer everyone a MEC plan and, alongside it, a minimum-value plan whose employee-only price meets an affordability safe harbor (often the FPL safe harbor). Full-time employees offered affordable, minimum-value coverage can't get a Marketplace subsidy,<a class="cite" href="https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit" title="IRS — Eligibility for the premium tax credit" target="_blank" rel="noopener">[20]</a> so B exposure is largely taken off the table for them, and the offer itself handles the A penalty. Your cost is the employer share for employees who actually choose the MVP. Employees who want only basic coverage, or have coverage elsewhere, can take the MEC plan or waive. For many cost-conscious ALEs, this combination handles compliance while tying the employer's cost to actual enrollment.</p>
+
+      <h4>(d) A full comprehensive plan</h4>
+      <p>A traditional medical plan, often with a choice of options, and a meaningful employer contribution. As long as the lowest-cost employee-only option that provides minimum value is affordable, it satisfies both penalties.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a> It's the strongest recruiting tool, and the largest and least predictable cost.</p>
+
+      <h4>(e) Individual coverage HRA (ICHRA)</h4>
+      <p>Instead of a group plan, the employer gives employees a tax-free monthly allowance to buy their own individual coverage. It can satisfy the mandate, but only if the allowance is big enough where your employees live.<a class="cite" href="https://www.federalregister.gov/documents/2019/09/30/2019-20034/application-of-the-employer-shared-responsibility-provisions-and-certain-nondiscrimination-rules-to" title="Federal Register — ICHRA and 4980H proposed regulations (Sept. 30, 2019)" target="_blank" rel="noopener">[25]</a></p>
+      <details class="more">
+        <summary><span>ICHRA detail<span class="sum-hint">How it counts as an offer, and the affordability test</span></span></summary>
+        <div class="more-body">
+          <p>Under IRS proposed regulations that employers may rely on until final rules take effect, an ICHRA counts as an offer of coverage for the A penalty.<a class="cite" href="https://www.federalregister.gov/documents/2019/09/30/2019-20034/application-of-the-employer-shared-responsibility-provisions-and-certain-nondiscrimination-rules-to" title="Federal Register — ICHRA and 4980H proposed regulations (Sept. 30, 2019)" target="_blank" rel="noopener">[25]</a> Employees, and any family members the ICHRA covers, have to be enrolled in individual health insurance (or Medicare) to use it, and you can't offer the same class of employees both an ICHRA and a traditional group plan.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.9802-4" title="26 CFR 54.9802-4 — HRAs integrated with individual health insurance coverage (eCFR)" target="_blank" rel="noopener">[38]</a><a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a> To avoid the B penalty, the ICHRA must be affordable. Take the monthly premium for the lowest-cost silver plan for self-only coverage on the Exchange for that employee, subtract the monthly ICHRA amount, and the difference can't be more than the affordability percentage of income: <strong>9.96% for plan years beginning in 2026</strong>.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFRcb39f040b41b74b/section-1.36B-2" title="26 CFR 1.36B-2 — Eligibility for premium tax credit (eCFR)" target="_blank" rel="noopener">[39]</a><a class="cite" href="https://www.irs.gov/pub/irs-drop/rp-25-25.pdf" title="IRS Rev. Proc. 2025-25" target="_blank" rel="noopener">[10]</a> An ICHRA that passes that test is also treated as providing minimum value.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFRcb39f040b41b74b/section-1.36B-2" title="26 CFR 1.36B-2 — Eligibility for premium tax credit (eCFR)" target="_blank" rel="noopener">[39]</a> For the penalty, you can price that silver plan by the employee's primary worksite instead of home address, and use the same income safe harbors as a group plan.<a class="cite" href="https://www.federalregister.gov/documents/2019/09/30/2019-20034/application-of-the-employer-shared-responsibility-provisions-and-certain-nondiscrimination-rules-to" title="Federal Register — ICHRA and 4980H proposed regulations (Sept. 30, 2019)" target="_blank" rel="noopener">[25]</a><a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a> CMS publishes a lookup table to help with the calculation.<a class="cite" href="https://www.cms.gov/marketplace/private-health-insurance/health-reimbursement-arrangements" title="CMS — Health reimbursement arrangements" target="_blank" rel="noopener">[26]</a> ICHRAs offer budget control but depend heavily on individual-market prices where your employees live.</p>
+        </div>
+      </details>
+
+    </section>
+
+    <section class="chapter" id="measurement" aria-labelledby="h-measurement">
+      <p class="tag">08 — The paperwork</p>
+      <h2 id="h-measurement">Measurement for variable-hour workforces, and reporting</h2>
+      <p>Once you're an ALE, you need a consistent way to decide which employees are full-time and must be offered coverage. There are two methods: count hours every month, or use a look-back period that locks in status for a stretch of months.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" title="26 CFR 54.4980H-3 — Determining full-time employees (eCFR)" target="_blank" rel="noopener">[5]</a></p>
+      <div class="note"><p><strong>Keep in mind:</strong> the look-back method only decides who must be offered coverage and how penalties are figured. It is <strong>not</strong> used to decide whether you're an ALE.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" title="IRS — Questions and answers on employer shared responsibility provisions" target="_blank" rel="noopener">[2]</a> For a team with many people near 30 hours a week, look-back measurement usually makes full-time status, and your cost, far more predictable.</p></div>
+      <p><strong>Every ALE also files Forms 1094-C and 1095-C each year</strong>, even if it owes no penalty, and the IRS uses those forms to propose penalties.<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a><a class="cite" href="https://www.irs.gov/individuals/understanding-your-letter-226-j" title="IRS — Understanding your Letter 226-J" target="_blank" rel="noopener">[19]</a> Getting measurement and reporting right is mostly an administrative job, but it's where avoidable penalties come from. The details are below.</p>
+      <details class="more">
+        <summary><span>Measurement methods<span class="sum-hint">Monthly vs. look-back, and the periods involved</span></span></summary>
+        <div class="more-body">
+          <div class="cards-2">
+            <div class="card forest">
+              <h4>Monthly measurement</h4>
+              <p>Count each employee's hours every month. 130 or more hours means full-time for that month.</p>
+              <p>Simple, but someone hovering around 30 hours a week can move in and out of full-time status, which makes offers and payroll deductions hard to manage.</p>
+            </div>
+            <div class="card accent">
+              <h4>Look-back measurement</h4>
+              <p>Measure hours over a <strong>standard measurement period</strong> of 3–12 months. Employees who average 30+ hours a week are treated as full-time for the following <strong>stability period</strong>, which must be at least 6 months and no shorter than the measurement period. An optional <strong>administrative period</strong> of up to 90 days can sit between them for enrollment.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" title="26 CFR 54.4980H-3 — Determining full-time employees (eCFR)" target="_blank" rel="noopener">[5]</a></p>
+              <p>New variable-hour, part-time, and seasonal hires can be measured over an <strong>initial measurement period</strong> of 3–12 months.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" title="26 CFR 54.4980H-3 — Determining full-time employees (eCFR)" target="_blank" rel="noopener">[5]</a></p>
+            </div>
+          </div>
+        </div>
+      </details>
+      <details class="more">
+        <summary><span>Filing detail: Forms 1094-C and 1095-C<span class="sum-hint">What they are, deadlines, electronic filing</span></span></summary>
+        <div class="more-body">
+          <ul>
+            <li><strong>Form 1095-C</strong> goes to each full-time employee and to the IRS, showing what coverage was offered each month. <strong>Form 1094-C</strong> is the summary transmittal to the IRS.<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a></li>
+            <li><strong>Deadlines</strong> for calendar-year 2026 forms, due in early 2027: furnish 1095-Cs to full-time employees by early March (the January 31 date gets an automatic 30-day extension), and file with the IRS by February 28 on paper or March 31 electronically.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-F/part-301/section-301.6056-1" title="26 CFR 301.6056-1 — ALE reporting: filing and furnishing (eCFR)" target="_blank" rel="noopener">[37]</a><a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a> A deadline that lands on a weekend or legal holiday moves to the next business day,<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a> and February 28, 2027 is a Sunday, so the paper date slides into early March too. The IRS posts exact dates in each year's instructions, so check them when they come out.</li><li><strong>Furnishing on request.</strong> You don't have to send every full-time employee a 1095-C. Under the Paperwork Burden Reduction Act (December 2024), you can instead post a clear, easy-to-find notice on your website by the furnishing deadline saying employees can ask for a copy, keep it up through October 15, and send any requested form within 30 days of the request. The notice needs an email address, a mailing address for requests, and a phone number.<a class="cite" href="https://www.irs.gov/irb/2025-11_IRB#NOT-2025-15" title="IRS Notice 2025-15 (Internal Revenue Bulletin 2025-11)" target="_blank" rel="noopener">[36]</a><a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a></li><li><strong>Your first forms</strong> cover your first ALE year and are due early the following year. ALE status comes from the prior year's average, so if your 2025 average reached 50, 2026 is your first ALE year and these early-2027 forms are your first. If your 2026 average is the first to reach 50, you're an ALE starting in 2027 and your first forms are due in early 2028.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a><a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a></li>
+            <li><strong>Electronic filing</strong> is required if you file 10 or more information returns of any kind during the year, counted in the aggregate (W-2s count), so most ALEs must e-file.<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-F/part-301/section-301.6011-2" title="26 CFR 301.6011-2 — Required use of electronic form (eCFR)" target="_blank" rel="noopener">[28]</a></li>
+          </ul>
+        </div>
+      </details>
+      <details class="more">
+        <summary><span>Letter 226-J<span class="sum-hint">How the IRS proposes a penalty</span></span></summary>
+        <div class="more-body">
+          <p>The IRS uses these forms, along with employees' subsidy information, to identify potential penalties, and proposes a penalty by sending <strong>Letter 226-J</strong>, which you can respond to.<a class="cite" href="https://www.irs.gov/individuals/understanding-your-letter-226-j" title="IRS — Understanding your Letter 226-J" target="_blank" rel="noopener">[19]</a> Accurate forms are your first line of defense.</p>
+        </div>
+      </details>
+    </section>
+    <section class="chapter" id="advisor" aria-labelledby="h-advisor">
+      <p class="tag">09 — Next steps</p>
+      <h2 id="h-advisor">Owner's checklist, and why an advisor matters</h2>
+      <p>If you're near or past 50, pull these together. They're the inputs that decide your timing, your exposure, and your best strategy.</p>
+      <ul class="checklist">
+        <li><strong>Monthly headcount and hours</strong> for every employee, full- and part-time, going back to January of last year.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></li>
+        <li><strong>Any related businesses</strong> under common ownership, which may need to be counted together.<a class="cite" href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" title="IRS — Determining if an employer is an applicable large employer" target="_blank" rel="noopener">[1]</a></li>
+        <li><strong>Your first ALE year</strong>, and whether you offered coverage in the prior year (this determines first-year relief).<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-2" title="26 CFR 54.4980H-2 — Applicable large employer status (eCFR)" target="_blank" rel="noopener">[4]</a></li>
+        <li><strong>Which employees sit near 30 hours a week</strong>, and whether their hours swing month to month.</li>
+        <li><strong>Your philosophy:</strong> maximize enrollment, or compliant, good, and cost-contained?</li>
+        <li><strong>A strategy</strong> from section 7, or a combination of them.</li>
+        <li><strong>Contribution levels and an affordability safe harbor</strong> that work together.<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" title="26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)" target="_blank" rel="noopener">[7]</a></li>
+        <li><strong>A measurement method and waiting period</strong> (up to 90 days).<a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" title="26 CFR 54.4980H-3 — Determining full-time employees (eCFR)" target="_blank" rel="noopener">[5]</a><a class="cite" href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.9815-2708" title="26 CFR 54.9815-2708 — 90-day waiting period limitation (eCFR)" target="_blank" rel="noopener">[17]</a></li>
+        <li><strong>How employees will enroll</strong>: online or in person, and in which languages.</li>
+        <li><strong>Who will prepare and file Forms 1094-C and 1095-C</strong> each year.<a class="cite" href="https://www.irs.gov/instructions/i109495c" title="IRS — Instructions for Forms 1094-C and 1095-C" target="_blank" rel="noopener">[18]</a></li>
+      </ul>
+
+      <div class="advisor" role="region" aria-labelledby="h-why">
+        <p class="tag">Why an advisor, not a quote</p>
+        <h3 id="h-why" style="color:#fff;margin-top:0">Insurance is a commodity. The strategy is where the value is.</h3>
+        <p>Any agency can run a quote. What decides your real cost is the work before and after: confirming your ALE status and timing from actual payroll, choosing the safe harbor and measurement method that fit a variable-hour team, sizing the employer share to your likely enrollment, and keeping the reporting clean so a Letter 226-J never becomes a surprise.</p>
+        <p>At Nexus, each advisor works with 30–40 clients, compared with an industry norm of 80–115, so there's time to do that work with you, not just for you. <strong>Your advisor, not just your account manager.</strong></p>
+        <p><a class="btn btn-primary" href="https://nexusbenefitsolutions.com/contact">Talk with an advisor</a></p>
+      </div>
+    </section>
+
+    <section class="chapter sources" id="sources" aria-labelledby="h-sources">
+      <p class="tag">10 — Sources</p>
+      <h2 id="h-sources">Sources</h2>
+      <p>Bracketed numbers throughout this guide link directly to these sources. Dollar amounts and percentages were checked against the primary documents on September 25, 2026. The full list opens below (and prints automatically).</p>
+      <details class="more" id="source-list">
+        <summary><span>Full source list (39 sources)<span class="sum-hint">Every bracketed number in the guide, with links</span></span></summary>
+        <div class="more-body">
+          <ol><li id="src-1"><a href="https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer" target="_blank" rel="noopener">IRS — Determining if an employer is an applicable large employer</a><br><span class="src-note">ALE definition, 50 FT + FTE test, 30-hour/130-hour rule, FTE formula, aggregation, seasonal-worker exception.</span></li><li id="src-2"><a href="https://www.irs.gov/affordable-care-act/employers/questions-and-answers-on-employer-shared-responsibility-provisions-under-the-affordable-care-act" target="_blank" rel="noopener">IRS — Questions and answers on employer shared responsibility provisions</a><br><span class="src-note">A and B penalties, 95% offer rule, dependents, affordability on employee-only coverage, look-back not used for ALE status, Medicaid.</span></li><li id="src-3"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-1" target="_blank" rel="noopener">26 CFR 54.4980H-1 — Definitions (eCFR)</a><br><span class="src-note">Definitions, including the federal poverty line used for the FPL safe harbor, (a)(19) (any poverty guideline in effect within six months before the first day of the plan year), and hour of service, (a)(24).</span></li><li id="src-4"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-2" target="_blank" rel="noopener">26 CFR 54.4980H-2 — Applicable large employer status (eCFR)</a><br><span class="src-note">Prior-calendar-year determination; first-year relief for coverage offered by April 1, (b)(5).</span></li><li id="src-5"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-3" target="_blank" rel="noopener">26 CFR 54.4980H-3 — Determining full-time employees (eCFR)</a><br><span class="src-note">Monthly and look-back measurement methods; measurement, stability, and administrative periods; new-hire rules.</span></li><li id="src-6"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-4" target="_blank" rel="noopener">26 CFR 54.4980H-4 — Assessable payment under 4980H(a) (eCFR)</a><br><span class="src-note">The A penalty and the 30-employee reduction.</span></li><li id="src-7"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.4980H-5" target="_blank" rel="noopener">26 CFR 54.4980H-5 — Assessable payment under 4980H(b) (eCFR)</a><br><span class="src-note">The B penalty, its cap, and the affordability safe harbors (W-2, rate of pay, FPL).</span></li><li id="src-8"><a href="https://www.irs.gov/pub/irs-drop/rp-25-26.pdf" target="_blank" rel="noopener">IRS Rev. Proc. 2025-26</a><br><span class="src-note">2026 4980H amounts: $3,340 (A) and $5,010 (B).</span></li><li id="src-9"><a href="https://www.irs.gov/pub/irs-drop/rp-26-22.pdf" target="_blank" rel="noopener">IRS Rev. Proc. 2026-22</a><br><span class="src-note">2027 4980H amounts: $3,780 (A) and $5,670 (B).</span></li><li id="src-10"><a href="https://www.irs.gov/pub/irs-drop/rp-25-25.pdf" target="_blank" rel="noopener">IRS Rev. Proc. 2025-25</a><br><span class="src-note">2026 affordability percentage: 9.96%.</span></li><li id="src-11"><a href="https://www.irs.gov/pub/irs-drop/rp-26-26.pdf" target="_blank" rel="noopener">IRS Rev. Proc. 2026-26</a><br><span class="src-note">2027 affordability percentage: 10.22%.</span></li><li id="src-12"><a href="https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines" target="_blank" rel="noopener">HHS — Annual update of the HHS poverty guidelines (Federal Register, Jan. 15, 2026)</a><br><span class="src-note">2026 poverty guideline for one person in the 48 contiguous states: $15,960. See also ASPE poverty guidelines: <a href="https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines">https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines</a></span></li><li id="src-13"><a href="https://www.irs.gov/affordable-care-act/employers/minimum-value-and-affordability" target="_blank" rel="noopener">IRS — Minimum value and affordability</a><br><span class="src-note">Minimum value (60%), affordability, safe harbors, HHS MV calculator.</span></li><li id="src-14"><a href="https://www.irs.gov/pub/irs-drop/n-14-69.pdf" target="_blank" rel="noopener">IRS Notice 2014-69</a><br><span class="src-note">Minimum value requires substantial coverage of inpatient hospital and physician services.</span></li><li id="src-15"><a href="https://www.law.cornell.edu/uscode/text/26/4980H" target="_blank" rel="noopener">26 U.S.C. 4980H (Cornell LII)</a><br><span class="src-note">Statute; (c)(7): penalties are not deductible.</span></li><li id="src-16"><a href="https://www.law.cornell.edu/uscode/text/26/5000A" target="_blank" rel="noopener">26 U.S.C. 5000A (Cornell LII)</a><br><span class="src-note">(f)(3): excepted benefits, including limited-scope dental provided under a separate policy, are not minimum essential coverage.</span></li><li id="src-17"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.9815-2708" target="_blank" rel="noopener">26 CFR 54.9815-2708 — 90-day waiting period limitation (eCFR)</a><br><span class="src-note">Waiting periods may not exceed 90 days.</span></li><li id="src-18"><a href="https://www.irs.gov/instructions/i109495c" target="_blank" rel="noopener">IRS — Instructions for Forms 1094-C and 1095-C</a><br><span class="src-note">Who files, what the forms show, furnishing and filing deadlines, electronic filing.</span></li><li id="src-19"><a href="https://www.irs.gov/individuals/understanding-your-letter-226-j" target="_blank" rel="noopener">IRS — Understanding your Letter 226-J</a><br><span class="src-note">How the IRS proposes employer shared responsibility payments and how to respond.</span></li><li id="src-20"><a href="https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit" target="_blank" rel="noopener">IRS — Eligibility for the premium tax credit</a><br><span class="src-note">Income range and the effect of an affordable, minimum-value employer offer.</span></li><li id="src-21"><a href="https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3701" target="_blank" rel="noopener">Michigan Compiled Laws 500.3701 — Definitions (small employer)</a><br><span class="src-note">Small employer, subdivision (q): since January 1, 2018, an average of at least 1 but not more than 50 full-time employees in the preceding calendar year, with at least 1 employee on the first day of the plan year; affiliates treated as one. (The older 2–50 eligible-employee test in the same subdivision predates 2018.)</span></li><li id="src-22"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.102" target="_blank" rel="noopener">45 CFR 147.102 — Fair health insurance premiums (eCFR)</a><br><span class="src-note">Small-group rating factors: age (3:1), tobacco (1.5:1), rating area, family size; composite premiums.</span></li><li id="src-23"><a href="https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/state-rating" target="_blank" rel="noopener">CMS — Market rating reforms: state specific rating variations</a><br><span class="src-note">Michigan follows the federal default rating rules.</span></li><li id="src-24"><a href="https://www.kff.org/health-costs/2025-employer-health-benefits-survey/" target="_blank" rel="noopener">KFF — 2025 Employer Health Benefits Survey</a><br><span class="src-note">Average premiums, worker contributions, eligibility and take-up, lower-wage firms, funding arrangements.</span></li><li id="src-25"><a href="https://www.federalregister.gov/documents/2019/09/30/2019-20034/application-of-the-employer-shared-responsibility-provisions-and-certain-nondiscrimination-rules-to" target="_blank" rel="noopener">Federal Register — ICHRA and 4980H proposed regulations (Sept. 30, 2019)</a><br><span class="src-note">ICHRA as an offer of coverage; affordability based on the lowest-cost silver plan. Employers may rely on these proposed rules.</span></li><li id="src-26"><a href="https://www.cms.gov/marketplace/private-health-insurance/health-reimbursement-arrangements" target="_blank" rel="noopener">CMS — Health reimbursement arrangements</a><br><span class="src-note">ICHRA overview and affordability resources.</span></li><li id="src-27"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-155/section-155.20" target="_blank" rel="noopener">45 CFR 155.20 — Definitions (eCFR)</a><br><span class="src-note">Federal small employer definition: an average of at least 1 but not more than 50 employees in the preceding calendar year, counted using the section 4980H(c)(2) method.</span></li><li id="src-28"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-F/part-301/section-301.6011-2" target="_blank" rel="noopener">26 CFR 301.6011-2 — Required use of electronic form (eCFR)</a><br><span class="src-note">(c)(4)(i): all listed information returns, including Forms W-2 and 1095-C, count in the aggregate toward the 10-return electronic-filing threshold (returns required to be filed in 2024 and later).</span></li><li id="src-29"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.150" target="_blank" rel="noopener">45 CFR 147.150 — Coverage of essential health benefits (eCFR)</a><br><span class="src-note">(a): an insurance carrier (issuer) offering coverage in the individual or small group market must include the essential health benefits package. Does not reach large-group or self-funded plans.</span></li><li id="src-30"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.140" target="_blank" rel="noopener">45 CFR 147.140 — Preservation of right to maintain existing coverage (eCFR)</a><br><span class="src-note">(c)(1): grandfathered health plans are exempt from listed ACA provisions, including PHS Act section 2707 (the essential-health-benefits requirement implemented at 45 CFR 147.150).</span></li><li id="src-31"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.110" target="_blank" rel="noopener">45 CFR 156.110 — EHB-benchmark plan standards (eCFR)</a><br><span class="src-note">(a)(10): the ten essential health benefit categories include pediatric services, including oral and vision care.</span></li><li id="src-32"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.115" target="_blank" rel="noopener">45 CFR 156.115 — Provision of EHB (eCFR)</a><br><span class="src-note">(a)(7): pediatric services must be covered until at least the end of the month in which the enrollee turns 19.</span></li><li id="src-33"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-155/subpart-K/section-155.1065" target="_blank" rel="noopener">45 CFR 155.1065 — Stand-alone dental plans (eCFR)</a><br><span class="src-note">(a): Exchange-certified stand-alone dental plans are limited-scope dental excepted benefits that cover at least the pediatric dental EHB; (d): a medical plan on the Exchange isn't disqualified for omitting pediatric dental that a stand-alone dental plan on the Exchange offers.</span></li><li id="src-34"><a href="https://www.federalregister.gov/documents/2013/02/25/2013-04084/patient-protection-and-affordable-care-act-standards-related-to-essential-health-benefits-actuarial" target="_blank" rel="noopener">HHS — Standards Related to Essential Health Benefits, Actuarial Value, and Accreditation, final rule (78 FR 12834, Feb. 25, 2013)</a><br><span class="src-note">Preamble at 78 FR 12853: outside the Exchange, a carrier is not out of compliance with EHB if it is reasonably assured the enrollee has pediatric dental through an Exchange-certified stand-alone dental plan, which need not be bought through the Exchange.</span></li><li id="src-35"><a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.150" target="_blank" rel="noopener">45 CFR 156.150 — Application to stand-alone dental plans inside the Exchange (eCFR)</a><br><span class="src-note">(a): annual out-of-pocket (cost-sharing) limit for pediatric dental in a stand-alone dental plan: $350 for one child and $700 for two or more, indexed after 2017.</span></li><li id="src-36"><a href="https://www.irs.gov/irb/2025-11_IRB#NOT-2025-15" target="_blank" rel="noopener">IRS Notice 2025-15 (Internal Revenue Bulletin 2025-11)</a><br><span class="src-note">Alternative manner of furnishing Form 1095-C under the Paperwork Burden Reduction Act (Pub. L. 118-167, Dec. 23, 2024): post a clear, conspicuous, accessible website notice by the furnishing due date (including the automatic 30-day extension); a requested statement is timely if furnished by the later of January 31 or 30 days after the request.</span></li><li id="src-37"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-F/part-301/section-301.6056-1" target="_blank" rel="noopener">26 CFR 301.6056-1 — ALE reporting: filing and furnishing (eCFR)</a><br><span class="src-note">(e): returns due February 28 (March 31 if filed electronically) of the year after the calendar year reported; (g)(1): statements due to full-time employees by January 31, with an automatic 30-day extension.</span></li><li id="src-38"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-D/part-54/section-54.9802-4" target="_blank" rel="noopener">26 CFR 54.9802-4 — HRAs integrated with individual health insurance coverage (eCFR)</a><br><span class="src-note">(c)(1): participants and dependents must be enrolled in individual health insurance coverage; (c)(2): no traditional group health plan for the same class; (c)(3): same terms within a class. Parallel rules: 29 CFR 2590.702-2 (DOL) and 45 CFR 146.123 (HHS).</span></li><li id="src-39"><a href="https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFRcb39f040b41b74b/section-1.36B-2" target="_blank" rel="noopener">26 CFR 1.36B-2 — Eligibility for premium tax credit (eCFR)</a><br><span class="src-note">(c)(5): an ICHRA is affordable if the self-only lowest cost silver plan premium minus the monthly self-only HRA amount does not exceed 1/12 of household income times the required contribution percentage; (c)(3)(vi): an affordable ICHRA is treated as providing minimum value.</span></li></ol>
+        </div>
+      </details>
+      <div class="disclaimer">
+        <p><strong>Important:</strong> This guide is general information, current as of September 25, 2026. It is not tax or legal advice. The rules are summarized, and exceptions and special cases exist. In this guide, "coverage" means group medical coverage for employees. Worked examples use hypothetical round numbers and are illustrative arithmetic, not quotes; actual premiums depend on your census, plan design, carrier, and market. Talk with your advisor and your tax professional before making decisions.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div>
+      <a class="lockup" href="https://nexusbenefitsolutions.com/" aria-label="Nexus Benefit Solutions home"><svg class="mark" viewBox="0 0 1200 867" role="img" aria-label="Nexus mark" focusable="false"><g transform="translate(0,867) scale(0.1,-0.1)" fill="#FFFFFF"><path d="M5760 8014 c-1080 -77 -2054 -604 -2704 -1464 -381 -503 -621 -1090 -712 -1740 -22 -157 -30 -628 -14 -802 81 -893 474 -1710 1119 -2330 582 -559 1305 -901 2126 -1005 196 -24 654 -24 850 0 821 104 1544 446 2126 1005 645 620 1038 1437 1119 2330 16 174 8 645 -14 802 -119 849 -492 1588 -1097 2174 -580 562 -1320 914 -2129 1011 -129 16 -550 27 -670 19z m455 -174 c493 -33 913 -146 1355 -366 352 -175 636 -380 916 -660 591 -593 948 -1366 1015 -2198 14 -184 7 -543 -15 -716 -137 -1056 -723 -1974 -1623 -2543 -145 -92 -447 -241 -617 -306 -800 -303 -1692 -303 -2492 0 -170 65 -472 214 -617 306 -819 518 -1389 1340 -1577 2273 -44 220 -61 373 -67 616 -6 253 6 447 43 669 167 991 744 1856 1601 2398 144 91 446 241 613 304 472 179 974 255 1465 223z"/>
+<path d="M5735 7599 c-649 -53 -1275 -303 -1790 -715 -134 -107 -383 -355 -486 -484 -381 -477 -607 -992 -699 -1595 -28 -178 -38 -574 -21 -761 132 -1402 1113 -2546 2476 -2888 256 -64 486 -91 785 -91 305 0 530 27 800 95 1172 296 2092 1221 2380 2394 70 289 95 526 87 864 -5 253 -23 414 -68 617 -93 421 -281 846 -522 1185 -227 318 -518 605 -832 819 -615 420 -1370 621 -2110 560z m-230 -767 c6 -4 177 -349 380 -767 203 -418 423 -872 490 -1010 67 -137 238 -491 381 -785 l259 -534 3 1109 c4 1455 -3 1548 -120 1711 -58 81 -183 144 -286 144 l-33 0 3 68 3 67 500 0 500 0 3 -67 3 -67 -43 -11 c-119 -31 -189 -63 -230 -107 -36 -38 -83 -142 -105 -233 -16 -70 -18 -218 -23 -2355 l-5 -2280 -37 -3 -37 -3 -120 239 -120 240 -11 108 c-51 498 -212 891 -492 1199 -66 72 -227 226 -256 244 -8 5 -585 1157 -996 1991 l-71 145 -5 -696 -5 -697 -77 65 -78 65 0 809 0 809 -56 113 c-128 254 -191 321 -329 346 -32 6 -60 11 -62 11 -2 0 -3 32 -3 70 l0 70 533 0 c292 0 537 -4 542 -8z m-1250 -252 c-12 -19 -55 -179 -74 -272 -90 -441 -29 -839 181 -1196 189 -320 523 -631 1041 -967 575 -375 660 -437 842 -620 156 -156 242 -273 335 -458 150 -298 217 -603 225 -1026 2 -112 3 -202 1 -200 -2 2 -23 49 -46 104 -90 215 -185 369 -305 494 -100 104 -174 157 -306 220 -134 64 -244 96 -591 172 -487 106 -708 182 -948 327 -399 241 -648 592 -727 1025 -23 129 -23 389 1 522 20 110 75 290 106 345 16 28 19 30 15 10 -13 -64 -25 -215 -25 -315 0 -365 106 -656 318 -871 114 -116 230 -196 417 -289 207 -102 314 -141 667 -244 358 -104 488 -150 633 -220 222 -109 400 -262 525 -452 33 -50 60 -88 60 -85 0 4 -18 41 -39 84 -65 129 -154 254 -257 362 -154 160 -299 262 -699 490 -375 215 -551 332 -755 503 -523 438 -814 955 -860 1532 -23 293 37 621 161 867 41 81 95 168 105 168 3 0 2 -5 -1 -10z m787 -3891 c8 -279 38 -443 96 -539 25 -40 94 -110 135 -136 44 -29 135 -54 194 -54 l43 0 0 -65 0 -65 -540 0 -540 0 0 65 0 64 38 6 c141 22 191 42 258 107 107 104 154 323 154 724 l0 153 78 -28 77 -29 7 -203z"/></g></svg><span class="wordmark">Nexus Benefit Solutions</span></a>
+      <p class="tagline">Your advisor, not just your account manager.</p>
+    </div>
+    <div>
+      <p style="margin:0">Grand Rapids, Michigan · <a href="https://nexusbenefitsolutions.com/">nexusbenefitsolutions.com</a> · <a href="https://nexusbenefitsolutions.com/contact">Contact</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
