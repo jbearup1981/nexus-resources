@@ -325,8 +325,33 @@ details.more h4{margin-top:18px}
   .site-footer .lockup,.site-footer .lockup .wordmark{color:var(--deep-forest)}
   .site-footer .lockup svg g{fill:var(--deep-forest)}
   .site-footer a{color:var(--rust-dark)}
-  /* Page fill: the big cards (penalties, measurement methods) may split across pages; summaries and badges stay with what follows */
-  .more-body .card,#penalties .cards-2 .card{break-inside:auto;page-break-inside:auto}
+  /* Page breaks: cards never split, and card pairs move to the next page together */
+  .card,.cards-2,.more-body .card,#penalties .cards-2 .card,.example{break-inside:avoid;page-break-inside:avoid}
+  /* Headings and intro lines stay with the table or card pair that follows */
+  p:has(+ .table-wrap),p:has(+ .cards-2),.timeline:has(+ .table-wrap),h3:has(+ .cards-2),h4:has(+ .table-wrap){break-after:avoid;page-break-after:avoid}
+  p:has(+ .table-wrap),p:has(+ .cards-2){break-inside:avoid;page-break-inside:avoid}
+  /* A chapter's opening (tag, heading, lead paragraph) doesn't sit alone at the foot of a page */
+  section.chapter > h2 + p{break-after:avoid;page-break-after:avoid;break-inside:avoid;page-break-inside:avoid}
+  /* Short detail boxes stay whole; the long source list still flows */
+  section.chapter:not(.sources) details.more{break-inside:avoid;page-break-inside:avoid}
+  /* Tables: stay whole when they fit on a page; if one must break, at least 2 rows on each side, header repeats */
+  .table-wrap.long{break-inside:avoid;page-break-inside:avoid}
+  .compare th{padding:6pt 7pt}
+  .compare td{font-size:9pt;padding:5pt 7pt;line-height:1.4}
+  tbody tr:first-child{break-after:avoid;page-break-after:avoid}
+  tbody tr:last-child{break-before:avoid;page-break-before:avoid}
+  /* Source list: tighter for print; every source and URL kept */
+  #sources > p{break-after:avoid;page-break-after:avoid}
+  .sources ol{font-size:9.5pt;line-height:1.25;margin-left:18pt}
+  .sources li{margin-bottom:2pt;padding-left:2pt}
+  .sources .src-note{font-size:9pt}
+  .sources li > a[href^="http"]::after{font-size:7.5pt}
+  .disclaimer,.site-footer{break-inside:avoid;page-break-inside:avoid}
+  section.chapter.sources{margin-bottom:0}
+  .site-footer{margin-top:8pt}
+  .site-footer .inner{padding:8pt 0 0;flex-wrap:nowrap;align-items:flex-end;gap:12pt;font-size:9pt}
+  .site-footer .tagline{font-size:8.5pt}
+  .site-footer .inner > div:last-child{text-align:right;white-space:nowrap}
   details.more > summary{break-inside:avoid;page-break-inside:avoid}
   .example .badge{display:table}
 }
