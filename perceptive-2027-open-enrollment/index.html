@@ -205,7 +205,27 @@ body.shownotes .slide:not(.active) aside.notes{display:none}
 .gbar .a{width:92%;background:var(--rl)}.gbar .b{width:8%;background:rgba(255,255,255,.85)}
 .gpanel .gp{font-size:12px;line-height:1.45;color:rgba(255,255,255,.88)}
 .gpanel .gs{font-size:10px;line-height:1.35;color:rgba(255,255,255,.55);margin-top:auto;padding-top:8px}
-</style></head>
+</style><style id="nexus-review-2026-11-14">
+/* Nexus design & readability review, 2026-11-14 (America/Detroit). Contrast to WCAG AA and a 12px screen-text floor. Copy, numbers and claims untouched. */
+
+@media screen {
+  section.slide.title div.t-left div.kick { color:#DF9071 !important; }
+  div.t-brand div.sm { color:rgba(255,255,255,0.54) !important; }
+  section.slide.title div.t-hero div.pcn { color:#A4A4A4 !important; }
+  section.slide.title div.t-hero div.pfor { color:#98A79D !important; }
+}
+@media screen and (max-width: 860px) {
+  button.fullscreen-btn { font-size:12px !important; }
+  section.slide.title div.t-left div.kick { font-size:12px !important; }
+  section.slide.title div.t-left div.t-pres { font-size:12px !important; }
+  body > div:nth-child(3) > section:nth-child(1) > div:nth-child(4) > div:nth-child(6) > div:nth-child(2) > div:nth-child(1):not(#nx-none) { font-size:12px !important; }
+  div.t-brand div.sm { font-size:12px !important; }
+}
+@media screen and (min-width: 861px) {
+  button.fullscreen-btn { font-size:12px !important; }
+}
+</style>
+</head>
 <body>
 <button class="fullscreen-btn" onclick="toggleFullscreen()">&#x26F6; Fullscreen</button>
 <div class="controls"><button id="prevBtn" onclick="nav(-1)" aria-label="Previous slide">&#9664;</button><span class="slide-counter" id="counter">1 / 12</span><button id="nextBtn" onclick="nav(1)" aria-label="Next slide">&#9654;</button></div>
