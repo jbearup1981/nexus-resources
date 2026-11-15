@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Nexus marketing materials menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --forest: #1F3D2E;
+      --forest-l: #2A5240;
+      --rust: #B8522A;
+      --rust-d: #9A4422;
+      --sage: #7A9282;
+      --pale: #E8EBE4;
+      --white: #FAFAF8;
+      --ink: #2D2D2D;
+      --line: #D3D8CE;
+      --serif: "DM Serif Display", Georgia, serif;
+      --sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--ink);
+      background: var(--pale);
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 16px 16px 64px; }
+    .banner {
+      background: #F4E4D8;
+      color: var(--rust-d);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-align: center;
+      padding: 8px 14px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    header.hero {
+      background: var(--forest);
+      color: var(--white);
+      border-radius: 8px;
+      padding: 28px 24px 32px;
+      margin-bottom: 28px;
+    }
+    .eyebrow {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #E8EBE4;
+      margin: 0 0 10px;
+    }
+    h1 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      line-height: 1.15;
+      margin: 0 0 12px;
+      color: var(--white);
+    }
+    .lede { margin: 0; color: #FAFAF8; max-width: 38em; }
+    h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1.65rem;
+      color: var(--forest);
+      margin: 0 0 8px;
+    }
+    h3 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: var(--forest);
+      margin: 0 0 8px;
+    }
+    .intro {
+      margin: 0 0 22px;
+      max-width: 40em;
+    }
+    .types { display: grid; gap: 14px; }
+    article.type {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px 18px 16px;
+    }
+    .status {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      color: var(--forest);
+    }
+    .status.gap { color: var(--rust); }
+    .status.draft { color: var(--rust-d); }
+    article.type p { margin: 0 0 8px; }
+    article.type p:last-child { margin-bottom: 0; }
+    .note { color: var(--ink); }
+    .coming {
+      margin-top: 48px;
+      padding-top: 8px;
+    }
+    .coming-head {
+      background: var(--forest);
+      color: var(--white);
+      border-radius: 8px 8px 0 0;
+      padding: 22px 22px 18px;
+    }
+    .coming-head h2 { color: var(--white); margin-bottom: 8px; }
+    .coming-head p { margin: 0; color: #FAFAF8; }
+    .coming-head a { color: #FAFAF8; text-decoration-color: #D4693F; }
+    ol.next {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-top: 0;
+      border-radius: 0 0 8px 8px;
+    }
+    ol.next li {
+      display: grid;
+      grid-template-columns: 2.2rem 1fr;
+      gap: 10px;
+      padding: 16px 18px;
+      border-top: 1px solid var(--line);
+    }
+    ol.next li:first-child { border-top: 0; }
+    .num {
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      color: var(--rust);
+      line-height: 1.2;
+    }
+    .who, .effort {
+      font-size: 13px;
+      margin: 0;
+    }
+    .who { color: var(--ink); }
+    footer.fine {
+      margin-top: 28px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--ink);
+    }
+    @media (min-width: 700px) {
+      .wrap { padding: 28px 24px 80px; }
+      .types { grid-template-columns: 1fr 1fr; }
+      article.type.wide { grid-column: 1 / -1; }
+    }
+  </style>
+<style id="nexus-review-2026-11-14">
+/* Nexus design & readability review, 2026-11-14 (America/Detroit). Contrast to WCAG AA and a 12px screen-text floor. Copy, numbers and claims untouched. */
+
+@media screen {
+
+}
+@media screen and (max-width: 860px) {
+  div.types article.type p.status { font-size:12px !important; }
+  div.types article.type p.status.draft { font-size:12px !important; }
+  div.types article.type.wide p.status.gap { font-size:12px !important; }
+}
+@media screen and (min-width: 861px) {
+  div.types article.type p.status { font-size:12px !important; }
+  div.types article.type p.status.draft { font-size:12px !important; }
+  div.types article.type.wide p.status.gap { font-size:12px !important; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="banner">Draft for Jason · 14 Nov 2026 · unlisted · types of materials, not every client copy</div>
+
+    <header class="hero">
+      <p class="eyebrow">Nexus Benefit Solutions</p>
+      <h1>Marketing materials menu</h1>
+      <p class="lede">What we make, who it’s for, and the main versions we have. Client-specific copies (a named flyer, a Creston preview, a MarJo guide) are customizations of these types, not separate menu items.</p>
+    </header>
+
+    <p class="intro">Every new piece should be responsive HTML that holds up on a phone, a laptop, and a big screen, and should be handed over as a link. A PDF is optional, only when asked, and only after it matches the HTML.</p>
+
+    <h2>What we already make</h2>
+    <p class="intro">Status in plain words: live means approved and hosted; draft means built but waiting on you; held means do not share; gap means we don’t have this type yet.</p>
+
+    <div class="types">
+      <article class="type">
+        <p class="status">Live</p>
+        <h3>Employer guides</h3>
+        <p>Longer educational pieces an owner or HR lead can keep. The live one today is Crossing 50 (ACA employer mandate). Under-20, 20–49, and a rebuilt COBRA guide are the gaps in this type.</p>
+      </article>
+
+      <article class="type">
+        <p class="status">Live</p>
+        <h3>Education hubs</h3>
+        <p>Tabbed HTML pages that introduce Integrity / Amaze to employers or employees. Employer and employee hubs are live. A single resources page, and the videos page, are still missing or held.</p>
+      </article>
+
+      <article class="type">
+        <p class="status">Live</p>
+        <h3>One-pagers</h3>
+        <p>Short leave-behinds: overview, payroll setup, tax FAQ, employee examples, paycheck and taxes. These exist for Integrity / Amaze. We don’t yet have renewal, mid-market, or ICHRA / QSEHRA one-pagers.</p>
+      </article>
+
+      <article class="type">
+        <p class="status draft">Draft</p>
+        <h3>Sales decks</h3>
+        <p>Meeting presentations, built as HTML that reflows on a phone. The Integrity / Amaze decks are in draft (including contrast fixes still to apply on a held copy). A standalone Amaze master is an open decision.</p>
+      </article>
+
+      <article class="type">
+        <p class="status">Live</p>
+        <h3>Flyers</h3>
+        <p>Short announcements for a single employer, often for open enrollment or a wellbeing challenge. Recent examples include the Perceptive raffle and quarterly-challenge flyers. Each new flyer is a client customization, not a new type.</p>
+      </article>
+
+      <article class="type">
+        <p class="status draft">Held / live mix</p>
+        <h3>Explainer videos</h3>
+        <p>Short films that explain Integrity / Amaze or how the monthly wellbeing benefit shows up in a paycheck. Some earlier cuts are hosted; the current intro and paycheck rebuilds (v5 / v22) stay held until you approve a version.</p>
+      </article>
+
+      <article class="type">
+        <p class="status">Live, still tuning</p>
+        <h3>Landing pages</h3>
+        <p>Michigan SEO pages along the ladder: individual / ACA, small group, mid-market. They are live, but traffic and form leads are still thin. A drafted Lead-Fix batch is waiting on your OK; that is a ship decision, not a new type.</p>
+      </article>
+
+      <article class="type">
+        <p class="status draft">Templates only</p>
+        <h3>Compliance calendars</h3>
+        <p>Year-at-a-glance lists by group size (under 20, 20–99, 100+). Templates exist. They should be published as HTML after the size guides, not as a first leave-behind.</p>
+      </article>
+
+      <article class="type wide">
+        <p class="status gap">Gap or on hold</p>
+        <h3>Social, articles, case studies, newsletters</h3>
+        <p>Social is planned (LinkedIn first, X as the daily companion) but has not launched. A 2027 cost-outlook article is drafted and held. There is no published case-study type (only a Davenport stub) and no newsletter.</p>
+      </article>
+    </div>
+
+    <section class="coming" id="coming-next" aria-labelledby="coming-title">
+      <div class="coming-head">
+        <p class="eyebrow">Queue</p>
+        <h2 id="coming-title">Coming next</h2>
+        <p>The next 10 materials to create, ranked for 2026–2027 lead gen. Full brief: NEXT-10 (internal brief). Nothing is assigned or published until you say go.</p>
+      </div>
+      <ol class="next">
+        <li>
+          <div class="num">1</div>
+          <div>
+            <h3>Under-20 employer guide</h3>
+            <p>The missing bottom rung under Crossing 50. For Michigan owners with about 1–19 employees.</p>
+            <p class="who">Ben · Medium · waits on your OI-185 answers</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">2</div>
+          <div>
+            <h3>20–49 employer guide</h3>
+            <p>The middle rung of the same series, including groups heading toward 50.</p>
+            <p class="who">Ben · Medium · same pass as #1</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">3</div>
+          <div>
+            <h3>COBRA employer guide (rebuild)</h3>
+            <p>Rebuild the v2 draft on the benefits-guide template so advisors have one trustworthy link.</p>
+            <p class="who">Ben · Medium · waits on OI-191 / your policy answers</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">4</div>
+          <div>
+            <h3>Amaze / Integrity resources page</h3>
+            <p>One phone-friendly page that points to the approved hubs, one-pagers, and, when ready, videos.</p>
+            <p class="who">Ben, with Images &amp; Graphics · Small–Medium</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">5</div>
+          <div>
+            <h3>2027 employer renewal planning one-pager</h3>
+            <p>The leave-behind the renewal push and social CTAs need, with no promised savings.</p>
+            <p class="who">Ben, with Images &amp; Graphics · Medium</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">6</div>
+          <div>
+            <h3>Mid-market “second look at your benefits” one-pager</h3>
+            <p>A short leave-behind for HR and CFOs at roughly 50–500 employees.</p>
+            <p class="who">Ben, with Images &amp; Graphics · Medium</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">7</div>
+          <div>
+            <h3>ICHRA / QSEHRA explainer one-pager</h3>
+            <p>A short comparison for owners weighing a group plan against a reimbursement arrangement.</p>
+            <p class="who">Ben · Small–Medium</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">8</div>
+          <div>
+            <h3>Social launch pack (first two weeks)</h3>
+            <p>Ten LinkedIn posts and matching X posts, with a few checklist visuals, all pointing at live pages.</p>
+            <p class="who">LinkedIn &amp; Social, with Images &amp; Graphics · Medium · you approve each post</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">9</div>
+          <div>
+            <h3>Integrity intro and paycheck videos (rebuild)</h3>
+            <p>Clears the held videos page and finishes the resources page. Stays held until you pick a version.</p>
+            <p class="who">Video Studio, then Ben · Large</p>
+          </div>
+        </li>
+        <li>
+          <div class="num">10</div>
+          <div>
+            <h3>First Michigan employer case study</h3>
+            <p>One real, sourced story. No invented savings. Starts when you name an employer we can tell the truth about.</p>
+            <p class="who">Ben, then LinkedIn &amp; Social · Medium, once you name the employer</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <footer class="fine">
+      Internal draft. Lead-Fix Batch 1, the 2027 cost-outlook article, a 100+ guide, compliance-calendar publishing, a standalone Amaze master, and a newsletter are parked on purpose — already drafted, later in the series, or waiting on a decision. Brand: Nexus Forest and Rust, DM Serif Display and DM Sans.
+    </footer>
+  </div>
+</body>
+</html>
