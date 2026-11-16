@@ -160,93 +160,142 @@
       .types { grid-template-columns: 1fr 1fr; }
       article.type.wide { grid-column: 1 / -1; }
     }
+  
+    ul.links { list-style: none; margin: 12px 0 4px; padding: 0; border-top: 1px solid var(--line); }
+    ul.links li { border-bottom: 1px solid var(--line); }
+    ul.links a, ul.links .plain {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      min-height: 48px; padding: 10px 4px;
+      color: var(--forest); font-weight: 600; text-decoration: none;
+    }
+    ul.links a:hover, ul.links a:focus-visible { background: var(--pale); text-decoration: underline; text-decoration-color: var(--rust); }
+    ul.links a:focus-visible { outline: 2px solid var(--rust-d); outline-offset: 2px; }
+    ul.links a::after { content: "\2192"; color: var(--rust-d); font-weight: 700; flex: none; }
+    ul.links .sub { display: block; font-weight: 400; font-size: 13px; color: #566B5E; }
+    ul.links .plain { color: var(--ink); font-weight: 500; }
+    .tag { flex: none; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--rust-d); background: #F4E4D8; border-radius: 4px; padding: 2px 8px; }
+    .status { font-size: 12px; }
+    article.type h3 { margin-bottom: 6px; }
   </style>
-<style id="nexus-review-2026-11-14">
-/* Nexus design & readability review, 2026-11-14 (America/Detroit). Contrast to WCAG AA and a 12px screen-text floor. Copy, numbers and claims untouched. */
-
-@media screen {
-
-}
-@media screen and (max-width: 860px) {
-  div.types article.type p.status { font-size:12px !important; }
-  div.types article.type p.status.draft { font-size:12px !important; }
-  div.types article.type.wide p.status.gap { font-size:12px !important; }
-}
-@media screen and (min-width: 861px) {
-  div.types article.type p.status { font-size:12px !important; }
-  div.types article.type p.status.draft { font-size:12px !important; }
-  div.types article.type.wide p.status.gap { font-size:12px !important; }
-}
-</style>
 </head>
 <body>
   <div class="wrap">
-    <div class="banner">Draft for Jason · 14 Nov 2026 · unlisted · types of materials, not every client copy</div>
+    <div class="banner">Unlisted · updated 15 Nov 2026 · tap any item to open it</div>
 
     <header class="hero">
       <p class="eyebrow">Nexus Benefit Solutions</p>
       <h1>Marketing materials menu</h1>
-      <p class="lede">What we make, who it’s for, and the main versions we have. Client-specific copies (a named flyer, a Creston preview, a MarJo guide) are customizations of these types, not separate menu items.</p>
+      <p class="lede">What we make, grouped by type, with a link to every live piece.</p>
     </header>
 
-    <p class="intro">Every new piece should be responsive HTML that holds up on a phone, a laptop, and a big screen, and should be handed over as a link. A PDF is optional, only when asked, and only after it matches the HTML.</p>
-
-    <h2>What we already make</h2>
-    <p class="intro">Status in plain words: live means approved and hosted; draft means built but waiting on you; held means do not share; gap means we don’t have this type yet.</p>
+    <p class="intro"><strong>Live</strong> items open when tapped. Items tagged Draft, Template, Held or Coming are not shared yet, so they have no link.</p>
 
     <div class="types">
       <article class="type">
         <p class="status">Live</p>
         <h3>Employer guides</h3>
-        <p>Longer educational pieces an owner or HR lead can keep. The live one today is Crossing 50 (ACA employer mandate). Under-20, 20–49, and a rebuilt COBRA guide are the gaps in this type.</p>
+        <p>Longer educational pieces an owner or HR lead can keep.</p>
+        <ul class="links">
+          <li><a href="https://jbearup1981.github.io/nexus-resources/crossing-50-aca-employer-mandate-guide/"><span>Crossing 50: ACA employer mandate guide<span class="sub">For employers approaching 50 employees</span></span></a></li>
+          <li><span class="plain"><span>Under-20 employer guide</span><span class="tag">Coming</span></span></li>
+          <li><span class="plain"><span>20–49 employer guide</span><span class="tag">Coming</span></span></li>
+          <li><span class="plain"><span>COBRA employer guide</span><span class="tag">Coming</span></span></li>
+        </ul>
       </article>
-
       <article class="type">
         <p class="status">Live</p>
         <h3>Education hubs</h3>
-        <p>Tabbed HTML pages that introduce Integrity / Amaze to employers or employees. Employer and employee hubs are live. A single resources page, and the videos page, are still missing or held.</p>
+        <p>Tabbed pages that introduce Integrity Health and Amaze well-being.</p>
+        <ul class="links">
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employer/"><span>Integrity / Amaze employer hub<span class="sub">Program overview, FAQ and getting started</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employee/"><span>Integrity / Amaze employee hub<span class="sub">What employees get, with FAQ</span></span></a></li>
+        </ul>
       </article>
-
       <article class="type">
         <p class="status">Live</p>
         <h3>One-pagers</h3>
-        <p>Short leave-behinds: overview, payroll setup, tax FAQ, employee examples, paycheck and taxes. These exist for Integrity / Amaze. We don’t yet have renewal, mid-market, or ICHRA / QSEHRA one-pagers.</p>
+        <p>Short leave-behinds. The Integrity / Amaze set opens as PDFs.</p>
+        <ul class="links">
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employer/employer-1-overview.pdf"><span>Employer 1: Overview<span class="sub">PDF</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employer/employer-2-payroll-setup.pdf"><span>Employer 2: Payroll and setup<span class="sub">PDF</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employer/employer-3-tax-faq.pdf"><span>Employer 3: Tax FAQ<span class="sub">PDF</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employee/employee-1-overview.pdf"><span>Employee 1: Overview<span class="sub">PDF</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employee/employee-2-benefit-examples.pdf"><span>Employee 2: Benefit examples by plan<span class="sub">PDF</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/integrity/employee/employee-3-paycheck-taxes.pdf"><span>Employee 3: Your paycheck and taxes<span class="sub">PDF</span></span></a></li>
+          <li><a href="https://www.nexusbenefitsolutions.com/wellbeing-one-pager.html"><span>Integrity well-being one-pager<span class="sub">Section 125 program, on nexusbenefitsolutions.com</span></span></a></li>
+          <li><span class="plain"><span>Amaze Health one-pager</span><span class="tag">Draft</span></span></li>
+        </ul>
       </article>
-
       <article class="type">
-        <p class="status draft">Draft</p>
-        <h3>Sales decks</h3>
-        <p>Meeting presentations, built as HTML that reflows on a phone. The Integrity / Amaze decks are in draft (including contrast fixes still to apply on a held copy). A standalone Amaze master is an open decision.</p>
+        <p class="status">Live</p>
+        <h3>Sales decks and client presentations</h3>
+        <p>Meeting presentations built as HTML. Client-named pieces are shared only with that client.</p>
+        <ul class="links">
+          <li><a href="https://jbearup1981.github.io/nexus-resources/pioneer-construction/integrity-amaze-deck/"><span>Pioneer Construction: Amaze / Integrity deck<span class="sub">Client-named; share only with Pioneer</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/perceptive-2027-open-enrollment/"><span>Perceptive Controls: 2027 open enrollment deck<span class="sub">Client-named</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/c/creston-2027-s9n0nnva/"><span>Creston Industrial: 2027 medical strategy<span class="sub">Client-named</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/creston-2027-248e3fa72ccb/"><span>Creston Industrial: 2027 medical options<span class="sub">Client-named</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/ttb-aca-options-omi5gz/"><span>Top To Bottom Cleaning: ACA options<span class="sub">Client-named</span></span></a></li>
+          <li><span class="plain"><span>Standalone Amaze master deck</span><span class="tag">Draft</span></span></li>
+          <li><span class="plain"><span>Discovery first-meeting deck</span><span class="tag">Template</span></span></li>
+        </ul>
       </article>
-
+      <article class="type">
+        <p class="status">Live</p>
+        <h3>Benefits guides</h3>
+        <p>Employee benefits guides built for one employer.</p>
+        <ul class="links">
+          <li><a href="https://jbearup1981.github.io/nexus-resources/perceptive-2027-benefits-guide/"><span>Perceptive Controls: 2027 employee benefits guide<span class="sub">Client-named</span></span></a></li>
+          <li><span class="plain"><span>Benefits guide template</span><span class="tag">Template</span></span></li>
+        </ul>
+      </article>
       <article class="type">
         <p class="status">Live</p>
         <h3>Flyers</h3>
-        <p>Short announcements for a single employer, often for open enrollment or a wellbeing challenge. Recent examples include the Perceptive raffle and quarterly-challenge flyers. Each new flyer is a client customization, not a new type.</p>
+        <p>Short announcements for a single employer.</p>
+        <ul class="links">
+          <li><a href="https://jbearup1981.github.io/nexus-resources/perceptive-raffle/"><span>Perceptive weekend raffle flyer<span class="sub">Client-named</span></span></a></li>
+          <li><a href="https://jbearup1981.github.io/nexus-resources/perceptive-amaze-challenge/"><span>Perceptive Amaze Health quarterly challenge 2027<span class="sub">Client-named</span></span></a></li>
+        </ul>
       </article>
-
       <article class="type">
-        <p class="status draft">Held / live mix</p>
+        <p class="status draft">Held</p>
         <h3>Explainer videos</h3>
-        <p>Short films that explain Integrity / Amaze or how the monthly wellbeing benefit shows up in a paycheck. Some earlier cuts are hosted; the current intro and paycheck rebuilds (v5 / v22) stay held until you approve a version.</p>
+        <p>Short films on Integrity / Amaze and how the wellbeing benefit shows up in a paycheck.</p>
+        <ul class="links">
+          <li><span class="plain"><span>Integrity videos page (intro and paycheck explainer)</span><span class="tag">Held</span></span></li>
+        </ul>
       </article>
-
       <article class="type">
-        <p class="status">Live, still tuning</p>
+        <p class="status">Live</p>
         <h3>Landing pages</h3>
-        <p>Michigan SEO pages along the ladder: individual / ACA, small group, mid-market. They are live, but traffic and form leads are still thin. A drafted Lead-Fix batch is waiting on your OK; that is a ship decision, not a new type.</p>
+        <p>Pages on nexusbenefitsolutions.com.</p>
+        <ul class="links">
+          <li><a href="https://www.nexusbenefitsolutions.com/individual-family"><span>Individual and family coverage</span></a></li>
+          <li><a href="https://www.nexusbenefitsolutions.com/small-business"><span>Small business benefits</span></a></li>
+          <li><a href="https://www.nexusbenefitsolutions.com/group-benefits"><span>Group benefits</span></a></li>
+          <li><a href="https://www.nexusbenefitsolutions.com/ichra"><span>ICHRA</span></a></li>
+          <li><a href="https://www.nexusbenefitsolutions.com/health-insurance-michigan/open-enrollment-2027/"><span>Michigan open enrollment 2027</span></a></li>
+        </ul>
       </article>
-
       <article class="type">
         <p class="status draft">Templates only</p>
         <h3>Compliance calendars</h3>
-        <p>Year-at-a-glance lists by group size (under 20, 20–99, 100+). Templates exist. They should be published as HTML after the size guides, not as a first leave-behind.</p>
+        <p>Year-at-a-glance lists by group size (under 20, 20–99, 100+).</p>
+        <ul class="links">
+          <li><span class="plain"><span>Compliance calendar template</span><span class="tag">Template</span></span></li>
+        </ul>
       </article>
-
       <article class="type wide">
-        <p class="status gap">Gap or on hold</p>
+        <p class="status gap">Coming</p>
         <h3>Social, articles, case studies, newsletters</h3>
-        <p>Social is planned (LinkedIn first, X as the daily companion) but has not launched. A 2027 cost-outlook article is drafted and held. There is no published case-study type (only a Davenport stub) and no newsletter.</p>
+        <p>Planned types we have not launched yet.</p>
+        <ul class="links">
+          <li><span class="plain"><span>LinkedIn and X posts</span><span class="tag">Coming</span></span></li>
+          <li><span class="plain"><span>2027 cost-outlook article</span><span class="tag">Draft</span></span></li>
+          <li><span class="plain"><span>Michigan employer case study</span><span class="tag">Coming</span></span></li>
+          <li><span class="plain"><span>Newsletter</span><span class="tag">Coming</span></span></li>
+        </ul>
       </article>
     </div>
 
@@ -254,94 +303,84 @@
       <div class="coming-head">
         <p class="eyebrow">Queue</p>
         <h2 id="coming-title">Coming next</h2>
-        <p>The next 10 materials to create, ranked for 2026–2027 lead gen. Full brief: NEXT-10 (internal brief). Nothing is assigned or published until you say go.</p>
+        <p>The next 10 materials we plan to create.</p>
       </div>
       <ol class="next">
         <li>
           <div class="num">1</div>
           <div>
             <h3>Under-20 employer guide</h3>
-            <p>The missing bottom rung under Crossing 50. For Michigan owners with about 1–19 employees.</p>
-            <p class="who">Ben · Medium · waits on your OI-185 answers</p>
+            <p>For Michigan owners with about 1–19 employees.</p>
           </div>
         </li>
         <li>
           <div class="num">2</div>
           <div>
             <h3>20–49 employer guide</h3>
-            <p>The middle rung of the same series, including groups heading toward 50.</p>
-            <p class="who">Ben · Medium · same pass as #1</p>
+            <p>For groups heading toward 50.</p>
           </div>
         </li>
         <li>
           <div class="num">3</div>
           <div>
-            <h3>COBRA employer guide (rebuild)</h3>
-            <p>Rebuild the v2 draft on the benefits-guide template so advisors have one trustworthy link.</p>
-            <p class="who">Ben · Medium · waits on OI-191 / your policy answers</p>
+            <h3>COBRA employer guide</h3>
+            <p>One clear guide on COBRA for employers.</p>
           </div>
         </li>
         <li>
           <div class="num">4</div>
           <div>
             <h3>Amaze / Integrity resources page</h3>
-            <p>One phone-friendly page that points to the approved hubs, one-pagers, and, when ready, videos.</p>
-            <p class="who">Ben, with Images &amp; Graphics · Small–Medium</p>
+            <p>One phone-friendly page for the hubs, one-pagers and videos.</p>
           </div>
         </li>
         <li>
           <div class="num">5</div>
           <div>
             <h3>2027 employer renewal planning one-pager</h3>
-            <p>The leave-behind the renewal push and social CTAs need, with no promised savings.</p>
-            <p class="who">Ben, with Images &amp; Graphics · Medium</p>
+            <p>A renewal leave-behind, with no promised savings.</p>
           </div>
         </li>
         <li>
           <div class="num">6</div>
           <div>
             <h3>Mid-market “second look at your benefits” one-pager</h3>
-            <p>A short leave-behind for HR and CFOs at roughly 50–500 employees.</p>
-            <p class="who">Ben, with Images &amp; Graphics · Medium</p>
+            <p>For HR and CFOs at roughly 50–500 employees.</p>
           </div>
         </li>
         <li>
           <div class="num">7</div>
           <div>
             <h3>ICHRA / QSEHRA explainer one-pager</h3>
-            <p>A short comparison for owners weighing a group plan against a reimbursement arrangement.</p>
-            <p class="who">Ben · Small–Medium</p>
+            <p>For owners weighing a group plan against a reimbursement arrangement.</p>
           </div>
         </li>
         <li>
           <div class="num">8</div>
           <div>
-            <h3>Social launch pack (first two weeks)</h3>
-            <p>Ten LinkedIn posts and matching X posts, with a few checklist visuals, all pointing at live pages.</p>
-            <p class="who">LinkedIn &amp; Social, with Images &amp; Graphics · Medium · you approve each post</p>
+            <h3>Social launch pack</h3>
+            <p>LinkedIn and X posts pointing at live pages.</p>
           </div>
         </li>
         <li>
           <div class="num">9</div>
           <div>
-            <h3>Integrity intro and paycheck videos (rebuild)</h3>
-            <p>Clears the held videos page and finishes the resources page. Stays held until you pick a version.</p>
-            <p class="who">Video Studio, then Ben · Large</p>
+            <h3>Integrity intro and paycheck videos</h3>
+            <p>Updated explainer videos.</p>
           </div>
         </li>
         <li>
           <div class="num">10</div>
           <div>
-            <h3>First Michigan employer case study</h3>
-            <p>One real, sourced story. No invented savings. Starts when you name an employer we can tell the truth about.</p>
-            <p class="who">Ben, then LinkedIn &amp; Social · Medium, once you name the employer</p>
+            <h3>Michigan employer case study</h3>
+            <p>One real, sourced story.</p>
           </div>
         </li>
       </ol>
     </section>
 
     <footer class="fine">
-      Internal draft. Lead-Fix Batch 1, the 2027 cost-outlook article, a 100+ guide, compliance-calendar publishing, a standalone Amaze master, and a newsletter are parked on purpose — already drafted, later in the series, or waiting on a decision. Brand: Nexus Forest and Rust, DM Serif Display and DM Sans.
+      Nexus Benefit Solutions · marketing materials menu. Unlisted page; please share links to individual pieces, not this menu.
     </footer>
   </div>
 </body>
